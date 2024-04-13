@@ -1,56 +1,38 @@
-:: Balatro French Translations
+:: Traducere în română pentru Balatro
 ::
-:: Script d'installation du pack de langue FR pour Balatro
-:: Fichier de langue et assets créés par la communauté Discord (Balatro FR - loc mod) : https://discord.gg/kQMdHTXB3Z
-:: Toutes les sources à jour sont disponibles ici : https://github.com/FrBmt-BIGetNouf/balatro-french-translations/
+:: Script de instalare pentru pachetul de limbă RO pentru Balatro
+:: Fișierul de limbă și resursele create de comunitatea Discord (Balatro RO - loc mod): https://discord.gg/kQMdHTXB3Z
+:: Toate sursele actualizate sunt disponibile aici: https://github.com/olenicandrei/balatro-romanian-translations/
 ::
-:: Ce script utilise Balamod pour injecter les ressources au jeu (https://github.com/UwUDev/balamod)
-::
-::
-::    ==================================
-::    ==  PERDU(E) ? NE PANIQUEZ PAS  ==
-::    ==================================
-::    Revenez en arrière et CLIQUEZ-DROIT sur le lien qui vous a mené ici, puis "Enregistrer le lien sous...".
-::    Double-cliquez ensuite sur le fichier téléchargé pour lancer l'installation.
+:: Acest script utilizează Balamod pentru a injecta resursele în joc (https://github.com/UwUDev/balamod)
 ::
 ::
-::
+
 
 @echo off
 setlocal enabledelayedexpansion
 
 set "colorReset=[0m"
-set "resourcesFolder=Balatro_Localization_Resources"
+set "resourcesFolder=Resurse_Localizare_Balatro"
 
-echo =========================================
-echo ==     Balatro French Translations     ==
-echo ==  Installation du pack de langue FR  ==
-echo ==        Traductions et images        ==
-echo =========================================
+echo ==========================================
+echo ==  Traducere în română pentru Balatro  ==
+echo ==  Instalarea pachetului de limbă RO   ==
+echo ==========================================
 
-:: Question utilisateur : Les images en Francais doivent-elles être utilisées ?
-echo.
-echo.
-choice /C ON /M "Voulez-vous utiliser les images en Francais ?"
-if errorlevel 2 (
-    echo Les images ne seront pas ajoutees
-    set "download_assets=false"
-)   else (
-    echo Les images seront ajoutees
-    set "download_assets=true"
-)
+set "download_assets=true"
 
-:: Vérificitation de l'installation par défaut de Steam (via libraryfolders.vdf  sur C:)
+:: Verificarea instalării implicite a Steam (prin libraryfolders.vdf pe C:)
 set "steamLibraryFile=C:\Program Files (x86)\Steam\steamapps\libraryfolders.vdf"
 
-:: S'il n'existe pas, ouverture de l'explorer pour la sélection manuelle de Balatro.exe
+:: Dacă nu există, deschideți explorer pentru selecția manuală a Balatro.exe
 if not exist "!steamLibraryFile!" (
     echo.
-    echo Oups, merci de nous indiquer ou se trouve Balatro.exe
+    echo Vă rugăm să selectați unde se află Balatro.exe
 
     set "balatroFile="
-    set "dialogTitle=Selectionner balatro.exe"
-    set "fileFilter=Balatro Executable (balatro.exe) | balatro.exe"
+    set "dialogTitle=Selectați balatro.exe"
+    set "fileFilter=Executable Balatro (balatro.exe) | balatro.exe"
 
     for /f "delims=" %%I in ('powershell -Command "& { Add-Type -AssemblyName System.Windows.Forms; $dlg = New-Object System.Windows.Forms.OpenFileDialog; $dlg.Filter = '!fileFilter!'; $dlg.Title = '!dialogTitle!'; $dlg.ShowHelp = $true; $dlg.ShowDialog() | Out-Null; $dlg.FileName }"') do set "selectedFile=%%I"
 
@@ -58,24 +40,24 @@ if not exist "!steamLibraryFile!" (
         set "balatroFile=!selectedFile!"
         echo Balatro.exe : !balatroFile!
     ) else (
-        echo Balatro.exe : Fichier non selectionne. Installation annulee
+        echo Balatro.exe : Fișier neselectat. Instalare anulată
         goto :fin
     )
 )
 
-:: Création des dossiers de ressources temporaire
+:: Crearea folder-ului temporar de resurse
 if not exist "%resourcesFolder%" mkdir "%resourcesFolder%"
 if not exist "%resourcesFolder%\assets" mkdir "%resourcesFolder%\assets"
 if not exist "%resourcesFolder%\assets\1x" mkdir "%resourcesFolder%\assets\1x"
 if not exist "%resourcesFolder%\assets\2x" mkdir "%resourcesFolder%\assets\2x"
 
-:: Récupération de nom de la dernière release de Balamod
+:: Recuperarea numelui ultimei versiuni de Balamod
 for /f %%a in ('powershell -command "$tag = (Invoke-RestMethod -Uri 'https://api.github.com/repos/UwUDev/balamod/releases/latest').tag_name; $tag"') do set latestTag=%%a
 
-:: Creation des noms et liens des fichiers. Valable uniquement tant que le fichier windows s'appelle bien balamod-v.y.z-windows.exe.
+:: Crearea numelor și linkurilor fișierelor. Valabil doar cât timp fișierul pentru Windows se numește corect balamod-v.y.z-windows.exe.
 set "balamodFile=balamod-%latestTag%-windows.exe"
 set "balamodFileUrl=https://github.com/UwUDev/balamod/releases/download/%latestTag%/%balamodFile%"
-set "fr_repository=https://raw.githubusercontent.com/FrBmt-BIGetNouf/balatro-french-translations/main/localization"
+set "fr_repository=https://raw.githubusercontent.com/olenicandrei/balatro-romanian-translations/main/localization"
 set "fr_translation=%fr_repository%/fr.lua"
 set "fr_assetsBoosters1x=%fr_repository%/assets/1x/boosters.png"
 set "fr_assetsBoosters2x=%fr_repository%/assets/2x/boosters.png"
@@ -92,20 +74,20 @@ set "fr_assetsJokers2x=%fr_repository%/assets/2x/Jokers.png"
 set "fr_assetsShopSignAnimation1x=%fr_repository%/assets/1x/ShopSignAnimation.png"
 set "fr_assetsShopSignAnimation2x=%fr_repository%/assets/2x/ShopSignAnimation.png"
 
-:: Téléchargement de Balamod
+:: Download Balamod
 if not exist "%resourcesFolder%\%balamodFile%" (
     echo.
-    echo Telechargement de Balamod...
+    echo Se descarcă Balamod...
     echo.
     curl --ssl-no-revoke -L -o "%resourcesFolder%\%balamodFile%" %balamodFileUrl%
     echo.
-    echo Telechargement de Balamod termine
+    echo Descărcarea Balamod finalizată
     echo.
 )
 
-:: Téléchargement du pack de langue FR
+:: Descărcarea pachetului de limbă RO
 echo.
-echo Telechargement du mod FR...
+echo Se Descarcă mod-ul RO...
 echo.
 curl --ssl-no-revoke -L -o "%resourcesFolder%\fr.lua" %fr_translation%
 
@@ -127,17 +109,17 @@ if "%download_assets%"=="true" (
 )
 
 echo.
-echo Telechargement du mod FR termine
+echo Descărcarea mod-ului RO finalizată
 echo.
 
-:: Injection du pack de langue FR
+:: Injectarea pachetului de limbă RO
 echo.
-echo Installation du pack de langue...
+echo Instalarea pachetului de limbă...
 echo.
 
 
 if not defined balatroFile (
-    :: Si Steam installé par défaut, on laisse Balamod chercher le fichier Balatro.
+    :: Dacă Steam este instalat implicit, lăsați Balamod să caute fișierul Balatro.
     "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\fr.lua -o localization/fr.lua
     if "%download_assets%"=="true" (
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\boosters.png -o resources/textures/1x/boosters.png
@@ -156,7 +138,7 @@ if not defined balatroFile (
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\ShopSignAnimation.png -o resources/textures/2x/ShopSignAnimation.png
     )
 ) else (
-    :: Sinon on lui envoie le dossier du fichier Balatro.exe selectionné précédemment.
+    :: Altfel, trimiteți calea către folder-ul unde se află fișierul Balatro.exe selectat anterior.
     for %%A in ("!balatroFile!") do set "balatroFolder=%%~dpA"
     "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\fr.lua -o localization/fr.lua
     if "%download_assets%"=="true" (
@@ -179,11 +161,11 @@ if not defined balatroFile (
 
 echo %colorReset%
 echo.
-echo Installation du pack de langue terminee
+echo Instalarea pachetului de limbă finalizată
 
-:: Suppression des fichiers ressources
+:: Ștergerea fișierelor de resurse
 rd /s /q "%resourcesFolder%"
-echo Balatro a ete mis a jour !
+echo Balatro a fost actualizat!
 
 :fin
 echo.
