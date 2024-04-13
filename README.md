@@ -15,7 +15,7 @@ A humble community-made version of the Romanian localization of Balatro.
 - Lansați jocul Balatro de pe Steam și selectați limba română folosind butonul din dreapta jos. Balatro este tradus în română 🥳
 
 > [!CAUTION]
-> Dacă jocul dvs. nu este instalat în locul obișnuit pe C:, scriptul nostru vă va întreba unde se află Balatro.exe. Îl puteți găsi prin Steam făcând clic-dreapta pe Balatro în biblioteca dvs., apoi Manage și Browse Local Files.
+> Dacă jocul dvs. nu este instalat în locul obișnuit pe C:, scriptul vă va întreba unde se află Balatro.exe. Îl puteți găsi prin Steam făcând clic-dreapta pe Balatro în biblioteca dvs., apoi Manage și Browse Local Files.
 
 > [!NOTE]
 > Odată ce instalarea este completată, puteți șterge scriptul. Doar amintiți-vă să reveniți aici și să-l descărcați din nou când jocul este actualizat: va trebui să-l rulați din nou pentru ca jocul să fie tradus corect din nou.
