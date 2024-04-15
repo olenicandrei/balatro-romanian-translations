@@ -1,11 +1,7 @@
 :: Traducere în română pentru Balatro
 ::
 :: Script de instalare pentru pachetul de limbă RO pentru Balatro
-:: Fișierul de limbă și resursele create de comunitatea Discord (Balatro RO - loc mod): https://discord.gg/kQMdHTXB3Z
 :: Toate sursele actualizate sunt disponibile aici: https://github.com/olenicandrei/balatro-romanian-translations/
-::
-:: Acest script utilizează Balamod pentru a injecta resursele în joc (https://github.com/UwUDev/balamod)
-::
 ::
 
 
@@ -19,8 +15,6 @@ echo ==========================================
 echo ==  Traducere în română pentru Balatro  ==
 echo ==  Instalarea pachetului de limbă RO   ==
 echo ==========================================
-
-set "download_assets=true"
 
 :: Verificarea instalării implicite a Steam (prin libraryfolders.vdf pe C:)
 set "steamLibraryFile=C:\Program Files (x86)\Steam\steamapps\libraryfolders.vdf"
@@ -45,127 +39,74 @@ if not exist "!steamLibraryFile!" (
     )
 )
 
-:: Crearea folder-ului temporar de resurse
-if not exist "%resourcesFolder%" mkdir "%resourcesFolder%"
-if not exist "%resourcesFolder%\assets" mkdir "%resourcesFolder%\assets"
-if not exist "%resourcesFolder%\assets\1x" mkdir "%resourcesFolder%\assets\1x"
-if not exist "%resourcesFolder%\assets\2x" mkdir "%resourcesFolder%\assets\2x"
-
-:: Recuperarea numelui ultimei versiuni de Balamod
-for /f %%a in ('powershell -command "$tag = (Invoke-RestMethod -Uri 'https://api.github.com/repos/UwUDev/balamod/releases/latest').tag_name; $tag"') do set latestTag=%%a
-
-:: Crearea numelor și linkurilor fișierelor. Valabil doar cât timp fișierul pentru Windows se numește corect balamod-v.y.z-windows.exe.
-set "balamodFile=balamod-%latestTag%-windows.exe"
-set "balamodFileUrl=https://github.com/UwUDev/balamod/releases/download/%latestTag%/%balamodFile%"
-set "fr_repository=https://raw.githubusercontent.com/olenicandrei/balatro-romanian-translations/main/localization"
-set "fr_translation=%fr_repository%/fr.lua"
-set "fr_assetsBoosters1x=%fr_repository%/assets/1x/boosters.png"
-set "fr_assetsBoosters2x=%fr_repository%/assets/2x/boosters.png"
-set "fr_assetsTarots1x=%fr_repository%/assets/1x/Tarots.png"
-set "fr_assetsTarots2x=%fr_repository%/assets/2x/Tarots.png"
-set "fr_assetsVouchers1x=%fr_repository%/assets/1x/Vouchers.png"
-set "fr_assetsVouchers2x=%fr_repository%/assets/2x/Vouchers.png"
-set "fr_assetsIcons1x=%fr_repository%/assets/1x/icons.png"
-set "fr_assetsIcons2x=%fr_repository%/assets/2x/icons.png"
-set "fr_assetsBlindChips1x=%fr_repository%/assets/1x/BlindChips.png"
-set "fr_assetsBlindChips2x=%fr_repository%/assets/2x/BlindChips.png"
-set "fr_assetsJokers1x=%fr_repository%/assets/1x/Jokers.png"
-set "fr_assetsJokers2x=%fr_repository%/assets/2x/Jokers.png"
-set "fr_assetsShopSignAnimation1x=%fr_repository%/assets/1x/ShopSignAnimation.png"
-set "fr_assetsShopSignAnimation2x=%fr_repository%/assets/2x/ShopSignAnimation.png"
-
-:: Download Balamod
-if not exist "%resourcesFolder%\%balamodFile%" (
-    echo.
-    echo Se descarcă Balamod...
-    echo.
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\%balamodFile%" %balamodFileUrl%
-    echo.
-    echo Descărcarea Balamod finalizată
-    echo.
+:: Verificare dacă 7-Zip este instalat
+where /q 7z.exe
+if %errorlevel% neq 0 (
+    echo 7-Zip nu este instalat. Se instalează 7-Zip...
+    powershell -command "Invoke-WebRequest -Uri 'https://www.7-zip.org/a/7z1900-x64.exe' -OutFile '%TEMP%\7z_installer.exe'"
+    start /wait %TEMP%\7z_installer.exe /S
+    echo 7-Zip a fost instalat.
+    setx PATH "%PATH%;C:\Program Files\7-Zip"
 )
 
-:: Descărcarea pachetului de limbă RO
-echo.
-echo Se Descarcă mod-ul RO...
-echo.
-curl --ssl-no-revoke -L -o "%resourcesFolder%\fr.lua" %fr_translation%
+:: Definire director temporar
+set "TEMP_DIR=%~dp0temp"
+mkdir "%TEMP_DIR%" 2>nul
 
-if "%download_assets%"=="true" (
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\boosters.png" %fr_assetsBoosters1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\boosters.png" %fr_assetsBoosters2x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\Tarots.png" %fr_assetsTarots1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\Tarots.png" %fr_assetsTarots2x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\Vouchers.png" %fr_assetsVouchers1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\Vouchers.png" %fr_assetsVouchers2x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\icons.png" %fr_assetsIcons1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\icons.png" %fr_assetsIcons2x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\BlindChips.png" %fr_assetsBlindChips1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\BlindChips.png" %fr_assetsBlindChips2x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\Jokers.png" %fr_assetsJokers1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\Jokers.png" %fr_assetsJokers2x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\ShopSignAnimation.png" %fr_assetsShopSignAnimation1x%
-    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\ShopSignAnimation.png" %fr_assetsShopSignAnimation2x%
+
+:: Închidere orice instanță a lui Balatro.exe care rulează
+echo Se încearcă închiderea Balatro.exe...
+taskkill /IM "balatro.exe" /F
+if %ERRORLEVEL% neq 0 echo Nu s-a putut găsi sau închide Balatro.exe. Se presupune că nu rulează.
+
+:: Backup pentru EXE-ul original
+echo Se face backup pentru EXE-ul original...
+copy /y "!balatroFile!" "!balatroFile!.bak"
+if %ERRORLEVEL% neq 0 (
+    echo Backup-ul pentru EXE-ul original a eșuat. Procesul este oprit.
+    goto fin
 )
 
-echo.
-echo Descărcarea mod-ului RO finalizată
-echo.
-
-:: Injectarea pachetului de limbă RO
-echo.
-echo Instalarea pachetului de limbă...
-echo.
-
-
-if not defined balatroFile (
-    :: Dacă Steam este instalat implicit, lăsați Balamod să caute fișierul Balatro.
-    "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\fr.lua -o localization/fr.lua
-    if "%download_assets%"=="true" (
-        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\boosters.png -o resources/textures/1x/boosters.png
-        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\boosters.png -o resources/textures/2x/boosters.png
-        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\Tarots.png -o resources/textures/1x/Tarots.png
-        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\Tarots.png -o resources/textures/2x/Tarots.png
-        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\Vouchers.png -o resources/textures/1x/Vouchers.png
-        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\Vouchers.png -o resources/textures/2x/Vouchers.png
-        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\icons.png -o resources/textures/1x/icons.png
-        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\icons.png -o resources/textures/2x/icons.png
-        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\BlindChips.png -o resources/textures/1x/BlindChips.png
-        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\BlindChips.png -o resources/textures/2x/BlindChips.png
-        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\Jokers.png -o resources/textures/1x/Jokers.png
-        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\Jokers.png -o resources/textures/2x/Jokers.png
-        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\ShopSignAnimation.png -o resources/textures/1x/ShopSignAnimation.png
-        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\ShopSignAnimation.png -o resources/textures/2x/ShopSignAnimation.png
-    )
-) else (
-    :: Altfel, trimiteți calea către folder-ul unde se află fișierul Balatro.exe selectat anterior.
-    for %%A in ("!balatroFile!") do set "balatroFolder=%%~dpA"
-    "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\fr.lua -o localization/fr.lua
-    if "%download_assets%"=="true" (
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\boosters.png -o resources/textures/1x/boosters.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\boosters.png -o resources/textures/2x/boosters.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\Tarots.png -o resources/textures/1x/Tarots.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\Tarots.png -o resources/textures/2x/Tarots.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\Vouchers.png -o resources/textures/1x/Vouchers.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\Vouchers.png -o resources/textures/2x/Vouchers.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\icons.png -o resources/textures/1x/icons.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\icons.png -o resources/textures/2x/icons.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\BlindChips.png -o resources/textures/1x/BlindChips.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\BlindChips.png -o resources/textures/2x/BlindChips.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\Jokers.png -o resources/textures/1x/Jokers.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\Jokers.png -o resources/textures/2x/Jokers.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\ShopSignAnimation.png -o resources/textures/1x/ShopSignAnimation.png
-        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\ShopSignAnimation.png -o resources/textures/2x/ShopSignAnimation.png
-    )
+:: Extrage EXE-ul
+echo Se extrag fișierele din EXE...
+7z x "!balatroFile!" -o"%TEMP_DIR%"
+if %ERRORLEVEL% neq 0 (
+    echo Eroare la extragerea fișierelor. Procesul este oprit.
+    goto fin
 )
 
-echo %colorReset%
-echo.
-echo Instalarea pachetului de limbă finalizată
+:: Definirea URL-ului de bază al repository-ului
+set "REPO_URL=https://raw.githubusercontent.com/olenicandrei/balatro-romanian-translations/main/localization"
 
-:: Ștergerea fișierelor de resurse
-rd /s /q "%resourcesFolder%"
-echo Balatro a fost actualizat!
+:: Se descarcă fișierele specifice în structura corectă
+echo Se descarcă resursele actualizate...
+set "files=boosters.png Tarots.png Vouchers.png icons.png Jokers.png ShopSignAnimation.png"
+for %%f in (%files%) do (
+    powershell -command "Invoke-WebRequest -Uri '%REPO_URL%/assets/1x/%%f' -OutFile '%TEMP_DIR%\resources\textures\1x\%%f'"
+    powershell -command "Invoke-WebRequest -Uri '%REPO_URL%/assets/2x/%%f' -OutFile '%TEMP_DIR%\resources\textures\2x\%%f'"
+)
+
+:: Se descarcă game.lua și ro.lua
+powershell -command "Invoke-WebRequest -Uri '%REPO_URL%/game.lua' -OutFile '%TEMP_DIR%\game.lua'"
+mkdir "%TEMP_DIR%\localization" 2>nul
+powershell -command "Invoke-WebRequest -Uri '%REPO_URL%/ro.lua' -OutFile '%TEMP_DIR%\localization\ro.lua'"
+
+:: Se repachetează arhiva în locația executabilului original
+echo Se repachetează EXE-ul modificat...
+if exist "!balatroFile!" del "!balatroFile!"
+7z a -sfx "!balatroFile!" "%TEMP_DIR%\*"
+if %ERRORLEVEL% neq 0 (
+    echo Eroare la repachetarea executabilului. Se restaurează din backup...
+    copy /y "!balatroFile!.bak" "!balatroFile!"
+    goto fin
+)
+
+:: Curățenie
+echo Se curăță fișierele temporare...
+rmdir /s /q "%TEMP_DIR%"
+
+echo Procesul s-a încheiat cu succes.
+pause
 
 :fin
 echo.
