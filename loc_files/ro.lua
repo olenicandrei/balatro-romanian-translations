@@ -8,15 +8,15 @@ return {
                 }
             },
             j_jolly = {
-                name = "Jolly Joker",
+                name = "Joker Vesel",
                 text = {
                     "{C:red}+#1#{} Multi dacă",
                     "mâna jucată",
-                    "conţine o {C:attention}#2#"
+                    "conţine {C:attention}#2#"
                 }
             },
             j_zany = {
-                name = "Zany Joker",
+                name = "Joker Caraghios",
                 text = {
                     "{C:red}+#1#{} Multi dacă",
                     "mâna jucată",
@@ -24,147 +24,147 @@ return {
                 }
             },
             j_mad = {
-                name = "Mad Joker",
+                name = "Joker Dement",
                 text = {
-                    "{C:red}+#1#{} Multi if played",
-                    "hand contains",
-                    "a {C:attention}#2#"
+                    "{C:red}+#1#{} Multi dacă",
+                    "mâna jucată",
+                    "conține {C:attention}#2#"
                 }
             },
             j_crazy = {
-                name = "Crazy Joker",
+                name = "Joker Nebun",
                 text = {
-                    "{C:red}+#1#{} Multi if played",
-                    "hand contains",
-                    "a {C:attention}#2#",
+                    "{C:red}+#1#{} Multi dacă",
+                    "mâna jucată",
+                    "conține {C:attention}#2#"
                 }
             },
             j_droll = {
-                name = "Droll Joker",
+                name = "Joker Amuzant",
                 text = {
-                    "{C:red}+#1#{} Multi if played",
-                    "hand contains",
-                    "a {C:attention}#2#"
+                    "{C:red}+#1#{} Multi dacă",
+                    "mâna jucată",
+                    "conține {C:attention}#2#"
                 }
             },
             j_sly = {
-                name = "Sly Joker",
+                name = "Joker Șmecher",
                 text = {
-                    "{C:chips}+#1#{} Chips if played",
-                    "hand contains",
-                    "a {C:attention}#2#"
+                    "{C:chips}+#1#{} Jetoane dacă",
+                    "mâna jucată",
+                    "conține {C:attention}#2#"
                 }
             },
             j_wily = {
-                name = "Wily Joker",
+                name = "Joker Șiret",
                 text = {
-                    "{C:chips}+#1#{} Chips if played",
-                    "hand contains",
-                    "a {C:attention}#2#"
+                    "{C:chips}+#1#{} Jetoane dacă",
+                    "mâna jucată",
+                    "conține {C:attention}#2#"
                 }
             },
             j_clever = {
-                name = "Clever Joker",
+                name = "Joker Isteț",
                 text = {
-                    "{C:chips}+#1#{} Chips if played",
-                    "hand contains",
-                    "a {C:attention}#2#"
+                    "{C:chips}+#1#{} Jetoane dacă",
+                    "mâna jucată",
+                    "conține {C:attention}#2#"
                 }
             },
             j_devious = {
-                name = "Devious Joker",
+                name = "Joker Viclean",
                 text = {
-                    "{C:chips}+#1#{} Chips if played",
-                    "hand contains",
-                    "a {C:attention}#2#"
+                    "{C:chips}+#1#{} Jetoane dacă",
+                    "mâna jucată",
+                    "conține {C:attention}#2#"
                 }
             },
             j_crafty = {
-                name = "Crafty Joker",
+                name = "Joker Dibace",
                 text = {
-                    "{C:chips}+#1#{} Chips if played",
-                    "hand contains",
-                    "a {C:attention}#2#"
+                    "{C:chips}+#1#{} Jetoane dacă",
+                    "mâna jucată",
+                    "conține {C:attention}#2#"
                 }
             },
             j_half = {
-                name = "Half Joker",
+                name = "Joker pe Jumate",
                 text = {
-                    "{C:red}+#1#{} Multi if played",
-                    "hand contains",
-                    "{C:attention}#2#{} or fewer cards"
+                    "{C:red}+#1#{} Multi dacă",
+                    "mâna jucată conține",
+                    "{C:attention}#2#{} sau mai puține cărți"
                 }
             },
             j_fortune_teller = {
-                name = "Fortune Teller",
+                name = "Ghicitoare",
                 text = {
-                    "{C:red}+#1#{} Multi per {C:purple}Tarot{}",
-                    "card used this run",
-                    "{C:inactive}(Currently {C:red}+#2#{C:inactive})"
+                    "{C:red}+#1#{} Multi per carte {C:purple}Tarot{}",
+                    "folosită în această partidă",
+                    "{C:inactive}(Actualmente {C:red}+#2#{C:inactive})"
                 }
             },
             j_juggler = {
-                name = "Juggler",
+                name = "Jongler",
                 text = {
-                    "{C:attention}+#1#{} hand size"
+                    "{C:attention}+#1#{} mărime mână"
                 }
             },
             j_drunkard = {
-                name = "Drunkard",
+                name = "Bețiv",
                 text = {
-                    "{C:red}+#1#{} discard"
+                    "{C:red}+#1#{} aruncare"
                 }
             },
             j_stone = {
-                name = "Stone Joker",
+                name = "Joker de Piatră",
                 text = {
-                    "This Joker gains {C:chips}+#1#{} Chips",
-                    "for each {C:attention}Stone Card",
-                    "in your full deck",
-                    "{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)",
+                    "Acest Joker generează {C:chips}+#1#{} Jetoane",
+                    "pentru fiecare {C:attention}Carte de Piatră",
+                    "din pachetul tău plin",
+                    "{C:inactive}(Actualmente {C:chips}+#2#{C:inactive} Jetoane)",
                 }
             },
             j_golden = {
-                name = "Golden Joker",
+                name = "Joker Auriu",
                 text = {
-                    "Earn {C:money}$#1#{} at",
-                    "end of round"
+                    "Primești {C:money}$#1#{} la",
+                    "finalul rundei"
                 }
             },
             j_stencil = {
-                name = "Joker Stencil",
+                name = "Joker Șablon",
                 text = {
-                    "{X:red,C:white} X1 {} Multi for each",
-                    "empty {C:attention}Joker{} slot",
-                    "{s:0.8}Joker Stencil included",
-                    "{C:inactive}(Currently {X:red,C:white} X#1# {C:inactive})"
+                    "{X:red,C:white} X1 {} Multi pentru fiecare",
+                    "spațiu gol de {C:attention}Jokeri{}",
+                    "{s:0.8}inclusiv Joker Șablon",
+                    "{C:inactive}(Actualmente {X:red,C:white} X#1# {C:inactive})"
                 }
             },
             j_four_fingers = {
-                name = "Four Fingers",
+                name = "Patru Degete",
                 text = {
-                    "All {C:attention}Flushes{} and",
-                    "{C:attention}Straights{} can be",
-                    "made with {C:attention}4{} cards"
+                    "Toate {C:attention}Chintele{} și",
+                    "{C:attention}Culorile{} pot fi",
+                    "făcute cu {C:attention}4{} cărți"
                 }
             },
             j_mime = {
-                name = "Mime",
+                name = "Mim",
                 text = {
-                    "Retrigger all",
-                    "card {C:attention}held in",
-                    "{C:attention}hand{} abilities"
+                    "Reactivează toate",
+                    "abilitățile de {C:attention}ținut în",
+                    "{C:attention}mână{} ale cărților"
                 }
             },
             j_credit_card = {
-                name = "Credit Card",
+                name = "Card de Credit",
                 text = {
-                    "Go up to",
-                    "{C:red}-$#1#{} in debt"
+                    "Poți ajunge până la",
+                    "{C:red}-$#1#{} în datorii"
                 }
             },
             j_greedy_joker = {
-                name = "Greedy Joker",
+                name = "Joker Avar",
                 text = {
                     "Played cards with",
                     "{C:diamonds}#2#{} suit give",
@@ -172,7 +172,7 @@ return {
                 }
             },
             j_lusty_joker = {
-                name = "Lusty Joker",
+                name = "Joker Desfrânat",
                 text = {
                     "Played cards with",
                     "{C:hearts}#2#{} suit give",
@@ -180,7 +180,7 @@ return {
                 }
             },
             j_wrathful_joker = {
-                name = "Wrathful Joker",
+                name = "Joker Mânios",
                 text = {
                     "Played cards with",
                     "{C:spades}#2#{} suit give",
@@ -188,7 +188,7 @@ return {
                 }
             },
             j_gluttenous_joker = {
-                name = "Gluttonous Joker",
+                name = "Joker Lacom",
                 text = {
                     "Played cards with",
                     "{C:clubs}#2#{} suit give",
@@ -1172,7 +1172,7 @@ return {
                 text = {
                     "{C:mult}+#1#{} Multi per",
                     "{C:attention}reaprovizionare{} a magazinului",
-                    "{C:inactive}(Curent {C:mult}+#2#{C:inactive} Multi)"
+                    "{C:inactive}(Actualmente {C:mult}+#2#{C:inactive} Multi)"
                 }
             },
             j_popcorn= {
