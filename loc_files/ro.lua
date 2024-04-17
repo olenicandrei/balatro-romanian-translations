@@ -2056,308 +2056,308 @@ return {
             c_familiar = {
                 name = "Familiar",
                 text = {
-                    "Destroy {C:attention}1{} random",
-                    "card in your hand, add",
-                    "{C:attention}#1#{} random {C:attention}Enhanced face",
-                    "{C:attention}cards{} to your hand"
+                    "Distruge {C:attention}1{} carte la întâmplare",
+                    "din mâna ta, adaugă {C:attention}#1#{}",
+                    "{C:attention}cărți cu figuri Îmbunătățite{}",
+                    "la întâmplare în mâna ta"
                 }
             },
             c_grim = {
-                name = "Grim",
+                name = "Macabru",
                 text = {
-                    "Destroy {C:attention}1{} random",
-                    "card in your hand,",
-                    "add {C:attention}#1#{} random {C:attention}Enhanced",
-                    "{C:attention}Aces{} to your hand"
+                    "Distruge {C:attention}1{} carte la întâmplare",
+                    "din mâna ta, adaugă {C:attention}#1#{}",
+                    "{C:attention}Ași Îmbunătățiți",
+                    "la întâmplare în mâna ta"
                 }
             },
             c_incantation = {
-                name = "Incantation",
+                name = "Incantație",
                 text = {
-                    "Destroy {C:attention}1{} random",
-                    "card in your hand, add {C:attention}#1#",
-                    "random {C:attention}Enhanced numbered",
-                    "{C:attention}cards{} to your hand"
+                    "Distruge {C:attention}1{} carte la întâmplare",
+                    "din mâna ta, adaugă {C:attention}#1#{}",
+                    "{C:attention}cărți numerotate Îmbunătățite{}",
+                    "la întâmplare în mâna ta"
                 }
             },
             c_talisman = {
                 name = "Talisman",
                 text = {
-                    "Add a {C:attention}Gold Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand"
+                    "Adaugă un {C:attention}Sigiliu Auriu{}",
+                    "la {C:attention}1{} carte",
+                    "selectată din mâna ta"
                 }
             },
             c_aura = {
-                name = "Aura",
+                name = "Aură",
                 text = {
-                    "Add {C:dark_edition}Foil{}, {C:dark_edition}Holographic{},",
-                    "or {C:dark_edition}Polychrome{} effect to",
-                    "{C:attention}1{} selected card in hand"
+                    "Adaugă efect {C:dark_edition}Laminat{},",
+                    "{C:dark_edition}Holografic{}, sau {C:dark_edition}Policrom{} la",
+                    "{C:attention}1{} carte selectată din mâna ta"
                 }
             },
             c_wraith = {
-                name = "Wraith",
+                name = "Fantomă",
                 text = {
-                    "Creates a random",
-                    "{C:red}Rare{C:attention} Joker{},",
-                    "sets money to {C:money}$0"
+                    "Creează un{C:attention} Joker{}",
+                    "{C:red}Rar{} la întâmplare,",
+                    "setează banii la {C:money}$0"
                 }
             },
             c_sigil = {
-                name = "Sigil",
+                name = "Sigiliu",
                 text = {
-                    "Converts all cards",
-                    "in hand to a single",
-                    "random {C:attention}suit"
+                    "Transformă toate cărțile din mână",
+                    "într-un singură {C:attention}culoare",
+                    "la întâmplare"
                 }
             },
             c_ouija = {
                 name = "Ouija",
                 text = {
-                    "Converts all cards",
-                    "in hand to a single",
-                    "random {C:attention}rank",
-                    "{C:red}-1{} hand size"
+                    "Transformă toate cărțile din mână",
+                    "într-un singur {C:attention}rang",
+                    "la întâmplare"
+                    "{C:red}-1{} mărime mână"
                 }
             },
             c_ectoplasm = {
-                name = "Ectoplasm",
+                name = "Ectoplasmă",
                 text = {
-                    "Add {C:dark_edition}Negative{} to",
-                    "a random {C:attention}Joker,",
-                    "{C:red}-#1#{} hand size"
+                    "Adaugă efect {C:dark_edition}Negativ{} la",
+                    "un {C:attention}Joker{} la întâmplare,",
+                    "{C:red}-1{} mărime mână"
                 }
             },
             c_immolate = {
-                name = "Immolate",
+                name = "Sacrificiu",
                 text = {
-                    "Destroys {C:attention}#1#{} random",
-                    "cards in hand,",
-                    "gain {C:money}$#2#"
+                    "Distruge {C:attention}#1#{} cărți la",
+                    "întâmplare din mână,",
+                    "primești {C:money}$#2#"
                 }
             },
             c_ankh = {
                 name = "Ankh",
                 text = {
-                    "Create a copy of a",
-                    "random {C:attention}Joker{}, destroy",
-                    "all other Jokers"
+                    "Creeză o copie unui {C:attention}Joker{}",
+                    "la întâmplare, distruge",
+                    "toți ceilalți Jokeri"
                 }
             },
             c_deja_vu = {
                 name = "Deja Vu",
                 text = {
-                    "Add a {C:red}Red Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand"
+                    "Adaugă un {C:attention}Sigiliu Roșu{}",
+                    "la {C:attention}1{} carte",
+                    "selectată din mâna ta"
                 }
             },
             c_hex = {
-                name = "Hex",
+                name = "Blestem",
                 text = {
-                    "Add {C:dark_edition}Polychrome{} to a",
-                    "random {C:attention}Joker{}, destroy",
-                    "all other Jokers"
+                    "Adaugă efect {C:dark_edition}Policrom{} la",
+                    "un {C:attention}Joker{} la întâmplare, distruge",
+                    "toți ceilalți Jokeri"
                 }
             },
             c_trance = {
-                name = "Trance",
+                name = "Transă",
                 text = {
-                    "Add a {C:blue}Blue Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand"
+                    "Adaugă un {C:attention}Sigiliu Albastru{}",
+                    "la {C:attention}1{} carte",
+                    "selectată din mâna ta"
                 }
             },
             c_medium = {
                 name = "Medium",
                 text = {
-                    "Add a {C:purple}Purple Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand"
+                    "Adaugă un {C:attention}Sigiliu Violet{}",
+                    "la {C:attention}1{} carte",
+                    "selectată din mâna ta"
                 }
             },
             c_cryptid = {
                 name = "Cryptid",
                 text = {
-                    "Create {C:attention}#1#{} copies of",
-                    "{C:attention}1{} selected card",
-                    "in your hand"
+                    "Creează {C:attention}#1#{} copii la",
+                    "{C:attention}1{} carte selectată",
+                    "din mâna ta"
                 }
             },
             c_soul = {
-                name = "The Soul",
+                name = "Suflet",
                 text = {
-                    "Creates a",
-                    "{C:legendary,E:1}Legendary{} Joker",
-                    "{C:inactive}(Must have room)"
+                    "Creează un",
+                    "Joker {C:legendary,E:1}Legendar{}",
+                    "{C:inactive}(Trebuie să aibă loc)"
                 }
             },
             c_black_hole = {
-                name = "Black Hole",
+                name = "Gaura Neagră",
                 text = {
-                    "Upgrade every",
-                    "{C:legendary,E:1}poker hand",
-                    "by {C:attention}1{} level"
+                    "Crește toate",
+                    "{C:legendary,E:1}mâinile de poker",
+                    "cu {C:attention}1{} nivel"
                 }
             }
         },
         Edition = {
             e_base = {
-                name = "Base",
+                name = "De Bază",
                 text = {
-                    "No extra effects"
+                    "Fără efecte extra"
                 }
             },
             e_foil = {
-                name = "Foil",
+                name = "Laminat",
                 text = {
-                    "{C:chips}+#1#{} chips"
+                    "{C:chips}+#1#{} Jetoane"
                 }
             },
             e_holo = {
-                name = "Holographic",
+                name = "Holografic",
                 text = {
                     "{C:mult}+#1#{} Multi"
                 }
             },
             e_polychrome = {
-                name = "Polychrome",
+                name = "Policrom",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi"
                 }
             },
             e_negative = {
-                name = "Negative",
+                name = "Negativ",
                 text = {
-                    "{C:dark_edition}+#1#{} Joker slot"
+                    "{C:dark_edition}+#1#{} spațiu Jokeri"
                 }
             },
             e_negative_consumable = {
-                name = "Negative",
+                name = "Negativ",
                 text = {
-                    "{C:dark_edition}+#1#{} consumable slot"
+                    "{C:dark_edition}+#1#{} spațiu de consumabile"
                 }
             }
         },
         Enhanced = {
             m_bonus = {
-                name = "Bonus Card",
+                name = "Carte Bonus",
                 text = {}
             },
             m_mult = {
-                name = "Multi Card",
+                name = "Carte Multi",
                 text = {
                     "{C:mult}+#1#{} Multi"
                 }
             },
             m_wild = {
-                name = "Wild Card",
+                name = "Carte Colorată",
                 text = {
-                    "Can be used",
-                    "as any suit"
+                    "Poate fi folosită",
+                    "drept orice culoare"
                 }
             },
             m_glass = {
-                name = "Glass Card",
+                name = "Carte de Sticlă",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi",
-                    "{C:green}#2# in #3#{} chance to",
-                    "destroy card"
+                    "{C:green}#2# din #3#{} șanse să",
+                    "se distrugă cartea"
                 }
             },
             m_steel = {
-                name = "Steel Card",
+                name = "Carte de Oțel",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi",
-                    "while this card",
-                    "stays in hand"
+                    "cât timp această carte",
+                    "se află în mână"
                 }
             },
             m_stone = {
-                name = "Stone Card",
+                name = "Carte de Piatră",
                 text = {
-                    "{C:chips}+#1#{} Chips",
-                    "no rank or suit"
+                    "{C:chips}+#1#{} Jetoane",
+                    "fără rang sau culoare"
                 }
             },
             m_gold = {
-                name = "Gold Card",
+                name = "Carte Aurie",
                 text = {
-                    "{C:money}$#1#{} if this",
-                    "card is held in hand",
-                    "at end of round"
+                    "{C:money}$#1#{} dacă această",
+                    "carte este ținută în mână",
+                    "la finalul rundei"
                 }
             },
             m_lucky = {
-                name = "Lucky Card",
+                name = "Carte Norocoasă",
                 text = {
-                    "{C:green}#1# in #3#{} chance",
-                    "for {C:mult}+#2#{} Multi",
-                    "{C:green}#1# in #5#{} chance",
-                    "to win {C:money}$#4#"
+                    "{C:green}#1# din #3#{} șanse",
+                    "pentru {C:mult}+#2#{} Multi",
+                    "{C:green}#1# din #5#{} șanse",
+                    "să primești {C:money}$#4#"
                 }
             }
         },
         Stake = {
             stake_white = {
-                name = "White Stake",
+                name = "Jeton Alb",
                 text = {
-                    "Base Difficulty"
+                    "Dificultatea de bază"
                 }
             },
             stake_red = {
-                name = "Red Stake",
+                name = "Jeton Roșu",
                 text = {
-                    "{C:attention}Small Blind{} gives",
-                    "no reward money",
-                    "{s:0.8}Applies all previous Stakes"
+                    "{C:attention}Blind-ul Mic{} nu dă",
+                    "bani recompensă",
+                    "{s:0.8}Se aplică toate Dificultățile precedente"
                 }
             },
             stake_green = {
-                name = "Green Stake",
+                name = "Jeton Verde",
                 text = {
-                    "Required score scales",
-                    "faster for each {C:attention}Ante",
-                    "{s:0.8}Applies all previous Stakes"
+                    "Punctajul necesar crește",
+                    "mai rapid pentru fiecare {C:attention}Miză",
+                    "{s:0.8}Se aplică toate Dificultățile precedente"
                 }
             },
             stake_blue = {
-                name = "Blue Stake",
+                name = "Jeton Albastru",
                 text = {
-                    "{C:red}-1{} Discard",
-                    "{s:0.8}Applies all previous Stakes"
+                    "{C:red}-1{} Aruncare",
+                    "{s:0.8}Se aplică toate Dificultățile precedente"
                 }
             },
             stake_black = {
-                name = "Black Stake",
+                name = "Jeton Negru",
                 text = {
-                    "Shop can have {C:attention}Eternal{} Jokers",
-                    "{C:inactive,s:0.8}(Can't be sold or destroyed)",
-                    "{s:0.8}Applies all previous Stakes"
+                    "Magazinul poate avea Jokeri {C:attention}Eterni{}",
+                    "{C:inactive,s:0.8}(Nu pot fi vânduți sau distruși)",
+                    "{s:0.8}Se aplică toate Dificultățile precedente"
                 }
             },
             stake_purple = {
-                name = "Purple Stake",
+                name = "Jeton Violet",
                 text = {
-                    "Required score scales",
-                    "faster for each {C:attention}Ante",
-                    "{s:0.8}Applies all previous Stakes"
+                    "Punctajul necesar crește",
+                    "mai rapid pentru fiecare {C:attention}Miză",
+                    "{s:0.8}Se aplică toate Dificultățile precedente"
                 }
             },
             stake_orange = {
-                name = "Orange Stake",
+                name = "Jeton Portocaliu",
                 text = {
-                    "{C:attention}Booster Packs{} cost",
-                    "{C:money}$1{} more per Ante",
-                    "{s:0.8}Applies all previous Stakes"
+                    "{C:attention}Pachetele Booster{} costă",
+                    "{C:money}$1{} în plus per Miză",
+                    "{s:0.8}Se aplică toate Dificultățile precedente"
                 }
             },
             stake_gold = {
-                name = "Gold Stake",
+                name = "Jeton Auriu",
                 text = {
-                    "{C:red}-1{} hand size",
-                    "{s:0.8}Applies all previous Stakes"
+                    "{C:red}-1{} mărime mână",
+                    "{s:0.8}Se aplică toate Dificultățile precedente"
                 }
             }
         },
@@ -2471,63 +2471,63 @@ return {
                 }
             },
             tag_coupon = {
-                name = "Coupon Tag",
+                name = "Etichetă Voucher",
                 text = {
-                    "Initial cards and",
-                    "booster packs in next",
-                    "shop are free"
+                    "Cărțile și pachetele booster",
+                    "inițiale în următorul",
+                    "magazin sunt gratis"
                 }
             },
             tag_double = {
-                name = "Double Tag",
+                name = "Etichetă Dublă",
                 text = {
-                    "Gives a copy of the",
-                    "next selected {C:attention}Tag{}",
-                    "{s:0.8,C:attention}Double Tag{s:0.8} excluded"
+                    "Dă o copie a următoarei",
+                    "{C:attention}Etichete{} selectate",
+                    "{s:0.8}excluzând {s:0.8,C:attention}Eticheta Dublă"
                 }
             },
             tag_juggle = {
-                name = "Juggle Tag",
+                name = "Etichetă Jonglerie",
                 text = {
-                    "{C:attention}+#1#{} hand size",
-                    "next round"
+                    "{C:attention}+#1#{} mărime mână",
+                    "în următoarea rundă"
                 }
             },
             tag_d_six = {
-                name = "D6 Tag",
+                name = "Etichetă D6",
                 text = {
-                    "Reaprovizionări în următorul",
+                    "Reaprovizionările în următorul",
                     "magazin încep la {C:money}$0"
                 }
             },
             tag_top_up = {
-                name = "Top-up Tag",
+                name = "Etichetă Încărcare",
                 text = {
-                    "Create up to {C:attention}#1#",
-                    "{C:blue}Common{} Jokers",
-                    "{C:inactive}(Must have room)"
+                    "Creează până la {C:attention}#1#",
+                    " Jokeri {C:blue}Comuni{}",
+                    "{C:inactive}(Trebuie să aibă loc)"
                 }
             },
             tag_skip = {
-                name = "Speed Tag",
+                name = "Etichetă Viteză",
                 text = {
-                    "Gives {C:money}$#1#{} per skipped",
-                    "Blind this run",
-                    "{C:inactive}(Will give {C:money}$#2#{C:inactive})"
+                    "Dă {C:money}$#1#{} per Blind",
+                    "sărit partida aceasta",
+                    "{C:inactive}(Va da {C:money}$#2#{C:inactive})"
                 }
             },
             tag_orbital = {
-                name = "Orbital Tag",
+                name = "Etichetă Orbitală",
                 text = {
-                    "Upgrade {C:attention}#1#",
-                    "by {C:attention}#2# levels"
+                    "Crește {C:attention}#1#",
+                    "cu {C:attention}#2# nivele"
                 }
             },
             tag_economy = {
-                name = "Economy Tag",
+                name = "Etichetă Economie",
                 text = {
-                    "Doubles your money",
-                    "{C:inactive}(Max of {C:money}$#1#{C:inactive})"
+                    "Dublează banii",
+                    "{C:inactive}(Maxim {C:money}$#1#{C:inactive})"
                 }
             },
             tag_ethereal = {
