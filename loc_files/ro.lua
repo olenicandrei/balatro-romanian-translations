@@ -2741,93 +2741,93 @@ return {
         },
         Back = {
             b_red = {
-                name = "Red Deck",
+                name = "Pachet Roșu",
                 text = {
-                    "{C:red}+#1#{} discard",
-                    "every round"
+                    "{C:red}+#1#{} aruncare",
+                    "la fiecare rundă"
                 }
             },
             b_blue = {
-                name = "Blue Deck",
+                name = "Pachet Albastru",
                 text = {
-                    "{C:blue}+#1#{} hand",
-                    "every round"
+                    "{C:blue}+#1#{} mână",
+                    "la fiecare rundă"
                 }
             },
             b_yellow = {
-                name = "Yellow Deck",
+                name = "Pachet Galben",
                 text = {
-                    "Start with",
-                    "extra {C:money}$#1#"
+                    "Începe cu",
+                    "{C:money}$#1#{} extra"
                 }
             },
             b_green = {
-                name = "Green Deck",
+                name = "Pachet Verde",
                 text = {
-                    "At end of each Round:",
-                    "{C:money}$#1#{s:0.85} per remaining {C:blue}Hand",
-                    "{C:money}$#2#{s:0.85} per remaining {C:red}Discard",
-                    "Earn no {C:attention}Interest"
+                    "La sfârșitul fiecărei Runde:",
+                    "{C:money}$#1#{s:0.85} per {C:blue}Hand{} rămasă",
+                    "{C:money}$#2#{s:0.85} per {C:red}Discard{} rămasă",
+                    "Nu generezi {C:attention}Dobândă"
                 }
             },
             b_black = {
-                name = "Black Deck",
+                name = "Pachet Negru",
                 text = {
-                    "{C:attention}+#1#{} Joker slot",
+                    "{C:attention}+#1#{} Spațiu Jokeri",
                     "",
-                    "{C:blue}-#2#{} hand",
-                    "every round"
+                    "{C:blue}-#2#{} mână",
+                    "la fiecare rundă"
                 }
             },
             b_magic = {
-                name = "Magic Deck",
+                name = "Pachet Magic",
                 text = {
-                    "Start run with the",
-                    "{C:tarot,T:v_crystal_ball}#1#{} voucher",
-                    "and {C:attention}2{} copies",
-                    "of {C:tarot,T:c_fool}#2#"
+                    "Începe partida cu",
+                    "cuponul {C:tarot,T:v_crystal_ball}#1#{}",
+                    "și {C:attention}2{} copii",
+                    "de {C:tarot,T:c_fool}#2#"
                 }
             },
             b_nebula = {
-                name = "Nebula Deck",
+                name = "Pachet Nebulos",
                 text = {
-                    "Start run with the",
-                    "{C:planet,T:v_telescope}#1#{} voucher",
+                    "Începe partida cu",
+                    "cuponul {C:planet,T:v_telescope}#1#{}",
                     "",
-                    "{C:red}#2#{} consumable slot"
+                    "{C:red}#2#{} spațiu de consumabile"
                 }
             },
             b_ghost = {
-                name = "Ghost Deck",
+                name = "Pachet Fantomă",
                 text = {
-                    "{C:spectral}Spectral{} cards may",
-                    "appear in the shop,",
-                    "start with a {C:spectral,T:c_hex}Hex{} card",
+                    "Cărțile {C:spectral}Spectrale{} pot",
+                    "apărea în magazin,",
+                    "începe cu o carte {C:spectral,T:c_hex}Blestem{}",
                 }
             },
             b_abandoned = {
-                name = "Abandoned Deck",
+                name = "Pachet Abandonat",
                 text = {
-                    "Start run with",
-                    "no {C:attention}Face Cards",
-                    "in your deck"
+                    "Începe partida fără",
+                    "{C:attention}Cărți cu Figuri",
+                    "în pachet"
                 }
             },
             b_checkered = {
-                name = "Checkered Deck",
+                name = "Pachet Inimos",
                 text = {
-                    "Start run with",
-                    "{C:attention}26{C:spades} Spades{} and",
-                    "{C:attention}26{C:hearts} Hearts{} in deck"
+                    "Începe partida cu",
+                    "{C:attention}26{C:spades} Pici{} și",
+                    "{C:attention}26{C:hearts} Cupe{} în pachet"
                 }
             },
             b_zodiac = {
                 name = "Pachet Zodiac",
                 text = {
-                    "Start run with",
+                    "Începe partida cu",
                     "{C:tarot,T:v_tarot_merchant}#1#{},",
                     "{C:planet,T:v_planet_merchant}#2#{},",
-                    "and {C:attention,T:v_overstock_norm}#3#"
+                    "și {C:attention,T:v_overstock_norm}#3#"
                 }
             },
             b_painted = {
@@ -3321,70 +3321,70 @@ return {
             poker_hand = "Cea Mai Jucată Mână"
         },
         achievement_names = {
-            ante_up = "Ante Up!",
-            ante_upper = "Ante Upper!",
-            heads_up = "Heads Up",
-            low_stakes = "Low Stakes",
-            mid_stakes = "Mid Stakes",
-            high_stakes = "High Stakes",
-            card_player = "Card Player",
-            card_discarder = "Card Discarder",
-            nest_egg = "Nest Egg",
-            flushed = "Flushed",
-            speedrunner = "Speedrunner",
+            ante_up = "Miză Mare!",
+            ante_upper = "Miză Mai Mare!",
+            heads_up = "Capul Sus",
+            low_stakes = "Jetoane Mici",
+            mid_stakes = "Jetoane Medii",
+            high_stakes = "Jetoane Mari",
+            card_player = "Jucător de Cărți",
+            card_discarder = "Aruncător de Cărți",
+            nest_egg = "Ou în Cuib",
+            flushed = "Colorat",
+            speedrunner = "Vitezoman",
             roi = "ROI",
-            shattered = "Shattered",
-            royale = "Royale",
-            retrograde = "Retrograde",
+            shattered = "Spart",
+            royale = "Roial",
+            retrograde = "Retrograd",
             _10k = "10K",
             _1000k = "1,000K",
             _100000k = "100,000K",
-            tiny_hands = "Tiny Hands",
-            big_hands = "Big Hands",
-            you_get_what_you_get = "You Get What You Get",
-            rule_bender = "Rule Bender",
-            rule_breaker = "Rule Breaker",
-            legendary = "Legendary",
-            astronomy = "Astronomy",
-            cartomancy = "Cartomancy",
-            clairvoyance = "Clairvoyance",
-            extreme_couponer = "Extreme Couponer",
-            completionist = "Completionist",
-            completionist_plus = "Completionist+",
-            completionist_plus_plus = "Completionist++",
+            tiny_hands = "Mâini Mici",
+            big_hands = "Mâini Mari",
+            you_get_what_you_get = "Primești Ceea Ce Primești",
+            rule_bender = "Reguli Proprii",
+            rule_breaker = "Reguli Încălcate",
+            legendary = "Legendar",
+            astronomy = "Astronomie",
+            cartomancy = "Ghicit în Cărți",
+            clairvoyance = "Clarviziune",
+            extreme_couponer = "Colecționar de Cupoane",
+            completionist = "Completare",
+            completionist_plus = "Completare+",
+            completionist_plus_plus = "Completare++",
         },
         achievement_descriptions = {
-            ante_up = "Reach Ante 4",
-            ante_upper = "Reach Ante 8",
-            heads_up = "Win a Run",
-            low_stakes = "Win a run on at least Red Stake difficulty",
-            mid_stakes = "Win a run on at least Black Stake difficulty",
-            high_stakes = "Win a run on at least Gold Stake difficulty",
-            card_player = "Play at least 2500 Cards",
-            card_discarder = "Discard at least 2500 Cards",
-            nest_egg = "Have $400 or more during a single run",
-            flushed = "Play a Flush with 5 Wild Cards",
-            speedrunner = "Win a run in 12 or fewer rounds",
-            roi = "Buy 5 Vouchers by Ante 4",
-            shattered = "Break 2 Glass Cards in a single hand",
-            royale = "Play a Royal Flush",
-            retrograde = "Get any poker hand to level 10",
-            _10k = "Score 10,000 Chips in a single hand",
-            _1000k = "Score 1,000,000 Chips in a single hand",
-            _100000k = "Score 100,000,000 Chips in a single hand",
-            tiny_hands = "Thin your deck down to 20 or fewer cards",
-            big_hands = "Have 80 or more cards in your deck",
+            ante_up = "Ajungi la Miza 4",
+            ante_upper = "Ajungi la Miza 8",
+            heads_up = "Câștigă o Partidă",
+            low_stakes = "Câștigă o Partidă la cel puțin dificultatea Roșie",
+            mid_stakes = "Câștigă o Partidă la cel puțin dificultatea Neagră",
+            high_stakes = "Câștigă o Partidă la cel puțin dificultatea Aurie",
+            card_player = "Joacă cel puțin 2500 de Cărți",
+            card_discarder = "Aruncă cel puțin 2500 de Cărți",
+            nest_egg = "Acumulează cel puțin $400 într-o singură Partidă",
+            flushed = "Joacă la Culoare cu 5 Cărți Colorate",
+            speedrunner = "Câștigă o Partidă în 12 sau mai puține Runde",
+            roi = "Cumpără 5 Cupoane până la Miza 4",
+            shattered = "Sparge 2 Cărți de Sticlă într-o singură mână",
+            royale = "Joacă o Chintă Roială",
+            retrograde = "Crește o Mână de Poker până la Nivelul 10",
+            _10k = "Generează 10.000 de Jetoane într-o singură mână",
+            _1000k = "Generează 1.000.000 de Jetoane într-o singură mână",
+            _100000k = "Generează 100.000.000 de Jetoane într-o singură mână",
+            tiny_hands = "Micșorează-ți pachetul până la maxim 20 de cărți",
+            big_hands = "Mărește-ți pachetul până la minim 80 de cărți",
             you_get_what_you_get = "Câştigă o partidă fără a reaproviziona magazinul",
-            rule_bender = "Complete any challenge run",
-            rule_breaker = "Complete every challenge run",
-            legendary = "Discover a Legendary Joker",
-            astronomy = "Discover every Planet card",
-            cartomancy = "Discover every Tarot card",
-            clairvoyance = "Discover every Spectral card",
-            extreme_couponer = "Discover every Voucher",
-            completionist = "Discover 100% of your collection",
-            completionist_plus = "Win with every deck on Gold Stake difficulty",
-            completionist_plus_plus = "Earn a Gold Sticker on every Joker",
+            rule_bender = "Completează una dintre Provocări",
+            rule_breaker = "Completează Toate Provocările",
+            legendary = "Descoperă un Joker Legendar",
+            astronomy = "Descoperă Toate Cărțile Planetă",
+            cartomancy = "Descoperă Toate Cărțile Tarot",
+            clairvoyance = "Descoperă Toate Cărțile Spectrale",
+            extreme_couponer = "Descoperă Toate Cupoanele",
+            completionist = "Descoperă 100% din Colecția ta",
+            completionist_plus = "Câștigă cu Toate Pachetele pe Dificultatea Aurie",
+            completionist_plus_plus = "Obține un Sticker Auriu pe Toți Jokerii",
         },
         challenge_names = {
             c_omelette_1 = "Omleta",
@@ -3959,7 +3959,7 @@ return {
             wq_5 = {"Se pare că te-am","învăţat bine!"},
             wq_6 = {"Se pare că ai avut", "un as în mânecă!"},
             wq_7 = {"Ce bine","că n-am pariat", "împotriva ta!"},
-            lq_1 = {"Un doi în mână", "ca la şcoală", "mereu sub medie..."},
+            lq_1 = {"Un doi în mână,", "ca la şcoală,", "mereu sub medie..."},
             lq_2 = {"Cu aşa mână,", "ai făcut full... ", "de hohote de râs!"},
             lq_3 = {"Ai avut mână de fier,", "dar se pare că era", "de fier vechi"},
             lq_4 = {"Ştii care-i", "vorba, casa", "câştigă întotdeauna!"},
