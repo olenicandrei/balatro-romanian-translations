@@ -168,7 +168,7 @@ return {
                 text = {
                     "Played cards with",
                     "{C:diamonds}#2#{} suit give",
-                    "{C:mult}+#1#{} Multi when scored", 
+                    "{C:mult}+#1#{} Multi when scored",
                 }
             },
             j_lusty_joker = {
@@ -176,7 +176,7 @@ return {
                 text = {
                     "Played cards with",
                     "{C:hearts}#2#{} suit give",
-                    "{C:mult}+#1#{} Multi when scored", 
+                    "{C:mult}+#1#{} Multi when scored",
                 }
             },
             j_wrathful_joker = {
@@ -184,7 +184,7 @@ return {
                 text = {
                     "Played cards with",
                     "{C:spades}#2#{} suit give",
-                    "{C:mult}+#1#{} Multi when scored", 
+                    "{C:mult}+#1#{} Multi when scored",
                 }
             },
             j_gluttenous_joker = {
@@ -192,7 +192,7 @@ return {
                 text = {
                     "Played cards with",
                     "{C:clubs}#2#{} suit give",
-                    "{C:mult}+#1#{} Multi when scored", 
+                    "{C:mult}+#1#{} Multi when scored",
                 }
             },
             j_ceremonial = {
@@ -658,7 +658,7 @@ return {
                 text = {
                     "Played cards with",
                     "{C:diamonds}Diamond{} suit earn",
-                    "{C:money}$#1#{} when scored", 
+                    "{C:money}$#1#{} when scored",
                 },
                 unlock = {
                     "Have at least {E:1,C:attention}#1#",
@@ -672,7 +672,7 @@ return {
                     "{C:green}#1# in #2#{} chance for",
                     "played cards with",
                     "{C:hearts}Heart{} suit to give",
-                    "{X:mult,C:white} X#3# {} Multi when scored", 
+                    "{X:mult,C:white} X#3# {} Multi when scored",
                 },
                 unlock = {
                     "Have at least {E:1,C:attention}#1#",
@@ -698,7 +698,7 @@ return {
                 text = {
                     "Played cards with",
                     "{C:clubs}Club{} suit give",
-                    "{C:mult}+#1#{} Multi when scored", 
+                    "{C:mult}+#1#{} Multi when scored",
                 },
                 unlock = {
                     "Have at least {E:1,C:attention}#1#",
@@ -1099,7 +1099,7 @@ return {
                     "held in hand has",
                     "a {C:green}#2# in #3#{} chance",
                     "to give {C:money}$#1#{}",
-                    
+
                 }
             },
             j_mail = {
@@ -1213,7 +1213,7 @@ return {
                 name = "Walkie Talkie",
                 text = {
                     "Each played {C:attention}10{} or {C:attention}4",
-                    "gives {C:chips}+#1#{} Chips and", 
+                    "gives {C:chips}+#1#{} Chips and",
                     "{C:mult}+#2#{} Multi when scored"
                 },
             },
@@ -2363,111 +2363,111 @@ return {
         },
         Tag = {
             tag_uncommon = {
-                name = "Uncommon Tag",
+                name = "Etichetă Neobişnuită",
                 text = {
-                    "Shop has an",
-                    "{C:green}Uncommon Joker"
+                    "Magazinul are un",
+                    "{C:green}Joker Neobişnuit"
                 }
             },
             tag_rare = {
-                name = "Rare Tag",
+                name = "Etichetă Rară",
                 text = {
-                    "Shop has a",
-                    "{C:red}Rare Joker"
+                    "Magazinul are un",
+                    "{C:green}Joker Rar"
                 }
             },
             tag_negative = {
-                name = "Negative Tag",
+                name = "Etichetă Negativă",
                 text = {
-                    "Next base edition shop",
-                    "Joker becomes {C:dark_edition}Negative"
+                    "Următorul Joker din magazin",
+                    "devine {C:dark_edition}Negativ"
                 }
             },
             tag_foil = {
-                name = "Foil Tag",
+                name = "Etichetă Laminată",
                 text = {
-                    "Next base edition shop",
-                    "Joker becomes {C:dark_edition}Foil"
+                    "Următorul Joker din magazin",
+                    "devine {C:dark_edition}Laminat"
                 }
             },
             tag_holo = {
-                name = "Holographic Tag",
+                name = "Etichetă Holografică",
                 text = {
-                    "Next base edition shop",
-                    "Joker becomes {C:dark_edition}Holographic"
+                    "Următorul Joker din magazin",
+                    "devine {C:dark_edition}Holografic"
                 }
             },
             tag_polychrome = {
-                name = "Polychrome Tag",
+                name = "Etichetă Policromă",
                 text = {
-                    "Next base edition shop",
-                    "Joker becomes {C:dark_edition}Polychrome"
+                    "Următorul Joker din magazin",
+                    "devine {C:dark_edition}Policrom"
                 }
             },
             tag_investment = {
-                name = "Investment Tag",
+                name = "Etichetă Investiție",
                 text = {
-                    "After defeating",
-                    "the Boss Blind,",
-                    "gain {C:money}$#1#"
+                    "După înfrângerea",
+                    "Blind-ului Boss,",
+                    "primești {C:money}$#1#"
                 }
             },
             tag_voucher = {
-                name = "Voucher Tag",
+                name = "Etichetă Cupon",
                 text = {
-                    "Adds one {C:voucher}Voucher",
-                    "to the next shop"
+                    "Adaugă {C:voucher}Cupon",
+                    "în următorul magazin"
                 }
             },
             tag_boss = {
-                name = "Boss Tag",
+                name = "Etichetă Boss",
                 text = {
-                    "Rerolls the",
-                    "{C:attention}Boss Blind"
+                    "Schimbă",
+                    "{C:attention}Blind-ul Boss"
                 }
             },
             tag_standard = {
-                name = "Standard Tag",
+                name = "Etichetă Standard",
                 text = {
-                    "Gives a free",
-                    "{C:attention}Mega Standard Pack"
+                    "Deschide pe gratis un",
+                    "{C:attention}Mega Pachet Standard"
                 }
             },
             tag_charm = {
-                name = "Charm Tag",
+                name = "Etichetă Farmec",
                 text = {
-                    "Gives a free",
-                    "{C:tarot}Mega Arcana Pack"
+                    "Deschide pe gratis un",
+                    "{C:tarot}Mega Pachet Arcana"
                 }
             },
             tag_meteor = {
-                name = "Meteor Tag",
+                name = "Etichetă Meteorit",
                 text = {
-                    "Gives a free",
-                    "{C:planet}Mega Celestial Pack"
+                    "Deschide pe gratis un",
+                    "{C:planet}Mega Pachet Celest"
                 }
             },
             tag_buffoon = {
-                name = "Buffoon Tag",
+                name = "Etichetă Bufon",
                 text = {
-                    "Gives a free",
-                    "{C:attention}Mega Buffoon Pack"
+                    "Deschide pe gratis un",
+                    "{C:attention}Mega Pachet Bufoni"
                 }
             },
             tag_handy = {
-                name = "Handy Tag",
+                name = "Etichetă Ajutătoare",
                 text = {
-                    "Gives {C:money}$#1#{} per played",
-                    "{C:blue}hand{} this run",
-                    "{C:inactive}(Will give {C:money}$#2#{C:inactive})"
+                    "Dă {C:money}$#1#{} per {C:blue}mână{}",
+                    "jucată partida aceasta",
+                    "{C:inactive}(Va da {C:money}$#2#{C:inactive})"
                 }
             },
             tag_garbage = {
-                name = "Garbage Tag",
+                name = "Etichetă Gunoi",
                 text = {
-                    "Gives {C:money}$#1#{} per unused",
-                    "{C:red}discard{} this run",
-                    "{C:inactive}(Will give {C:money}$#2#{C:inactive})",
+                    "Dă {C:money}$#1#{} per {C:red}aruncare{}",
+                    "nefolosită partida aceasta",
+                    "{C:inactive}(Va da {C:money}$#2#{C:inactive})",
                 }
             },
             tag_coupon = {
@@ -2531,211 +2531,211 @@ return {
                 }
             },
             tag_ethereal = {
-                name = "Ethereal Tag",
+                name = "Etichetă Eterică",
                 text = {
-                    "Gives a free",
-                    "{C:spectral}Spectral Pack"
+                    "Deschide pe gratis un",
+                    "{C:spectral}Pachet Spectral"
                 }
             }
         },
         Blind = {
             bl_small = {
-                name = "Small Blind",
+                name = "Blind Mic",
                 text = {}
             },
             bl_big = {
-                name = "Big Blind",
+                name = "Blind Mare",
                 text = {}
             },
             bl_hook = {
-                name = "The Hook",
+                name = "Cârligul",
                 text = {
-                    "Discards 2 random",
-                    "cards per hand played"
+                    "Aruncă 2 cărți la",
+                    "întâmplare per mână jucată"
                 }
             },
             bl_wall = {
-                name = "The Wall",
+                name = "Zidul",
                 text = {
-                    "Extra large blind"
+                    "Blind extra mare"
                 }
             },
             bl_wheel = {
-                name = "The Wheel",
+                name = "Roata",
                 text = {
-                    " in 7 cards get",
-                    "drawn face down"
+                    " din 7 cărți sunt",
+                    "trase cu fața în jos"
                 }
             },
             bl_arm = {
-                name = "The Arm",
+                name = "Brațul",
                 text = {
-                    "Decrease level of",
-                    "played poker hand"
+                    "Scade nivelul mâinii",
+                    "de poker jucate"
                 }
             },
             bl_psychic = {
-                name = "The Psychic",
+                name = "Psihicul",
                 text = {
-                    "Must play 5 cards"
+                    "Trebuie să joci 5 cărți"
                 }
             },
             bl_goad = {
-                name = "The Goad",
+                name = "Nuiaua",
                 text = {
-                    "All Spade cards",
-                    "are debuffed"
+                    "Toate cărțile de",
+                    "Pică sunt slăbite"
                 }
             },
             bl_water = {
-                name = "The Water",
+                name = "Apa",
                 text = {
-                    "Start with",
-                    "0 discards"
+                    "Începi cu",
+                    "0 aruncări"
                 }
             },
             bl_eye = {
-                name = "The Eye",
+                name = "Ochiul",
                 text = {
-                    "No repeat hand",
-                    "types this round"
+                    "Fără tipuri de mâini",
+                    "repetate runda aceasta"
                 }
             },
             bl_mouth = {
-                name = "The Mouth",
+                name = "Gura",
                 text = {
-                    "Play only 1 hand",
-                    "type this round"
+                    "Joacă 1 singur tip",
+                    "de mână runda aceasta"
                 }
             },
             bl_plant = {
-                name = "The Plant",
+                name = "Planta",
                 text = {
-                    "All face cards",
-                    "are debuffed"
+                    "Toate cărțile cu",
+                    "figuri sunt slăbite"
                 }
             },
             bl_needle = {
-                name = "The Needle",
+                name = "Acul",
                 text = {
-                    "Play only 1 hand"
+                    "Joacă o singură mână"
                 }
             },
             bl_head = {
-                name = "The Head",
+                name = "Capul",
                 text = {
-                    "All Heart cards",
-                    "are debuffed"
+                    "Toate cărțile de",
+                    "Cupă sunt slăbite"
                 }
             },
             bl_tooth = {
-                name = "The Tooth",
+                name = "Dintele",
                 text = {
-                    "Lose $1 per",
-                    "card played"
+                    "Pierzi $1 per",
+                    "carte jucată"
                 }
             },
             bl_final_leaf = {
-                name = "Verdant Leaf",
+                name = "Frunză Înverzită",
                 text = {
-                    "All cards debuffed",
-                    "until 1 Joker sold"
+                    "Toate cărțile slăbite până",
+                    "când 1 Joker este vândut"
                 }
             },
             bl_final_vessel = {
-                name = "Violet Vessel",
+                name = "Vas Violet",
                 text = {
-                    "Very large blind"
+                    "Blind foarte mare"
                 }
             },
             bl_ox = {
-                name = "The Ox",
+                name = "Boul",
                 text = {
-                    "Playing a #1#",
-                    "sets money to $0"
+                    "Jucarea unei mâini #1#",
+                    "setează banii la $0"
                 }
             },
             bl_house = {
-                name = "The House",
+                name = "Casa",
                 text = {
-                    "First hand is",
-                    "drawn face down"
+                    "Prima mână este",
+                    "trasă cu fața în jos"
                 }
             },
             bl_club = {
-                name = "The Club",
+                name = "Bâta",
                 text = {
-                    "All Club cards",
-                    "are debuffed"
+                    "Toate cărțile de",
+                    "Treflă sunt slăbite"
                 }
             },
             bl_fish = {
-                name = "The Fish",
+                name = "Peștele",
                 text = {
-                    "Cards drawn face down",
-                    "after each hand played"
+                    "Cărți trase cu fața în jos",
+                    "după fiecare mână jucată"
                 }
             },
             bl_window = {
-                name = "The Window",
+                name = "Fereastra",
                 text = {
-                    "All Diamond cards",
-                    "are debuffed"
+                    "Toate cărțile de",
+                    "Caro sunt slăbite"
                 }
             },
             bl_manacle = {
-                name = "The Manacle",
+                name = "Cătușa",
                 text = {
-                    "-1 Hand Size"
+                    "-1 Mărime Mână"
                 }
             },
             bl_serpent = {
-                name = "The Serpent",
+                name = "Șarpele",
                 text = {
-                    "After Play or Discard,",
-                    "always draw 3 cards"
+                    "După ce Joci sau Arunci,",
+                    "mereu tragi 3 cărți"
                 }
             },
             bl_pillar = {
-                name = "The Pillar",
+                name = "Stâlpul",
                 text = {
-                    "Cards played previously",
-                    "this Ante are debuffed"
+                    "Cărțile jucate Miza",
+                    "aceasta sunt slăbite"
                 }
             },
             bl_flint = {
-                name = "The Flint",
+                name = "Cremenul",
                 text = {
-                    "Base Chips and",
-                    "Multi are halved"
+                    "Jetoanele și Multi",
+                    "de bază sunt înjumătățite"
                 }
             },
             bl_mark = {
-                name = "The Mark",
+                name = "Semnul",
                 text = {
-                    "All face cards are",
-                    "drawn face down"
+                    "Toate cărțile cu figuri",
+                    "sunt trase cu fața în jos"
                 }
             },
             bl_final_acorn = {
-                name = "Amber Acorn",
+                name = "Ghindă Aurie",
                 text = {
-                    "Flips and shuffles",
-                    "all Joker cards"
+                    "Întoarce și amestecă",
+                    "toate cărțile Joker"
                 }
             },
             bl_final_heart = {
-                name = "Crimson Heart",
+                name = "Inimă Roșie",
                 text = {
-                    "One random Joker",
-                    "disabled every hand"
+                    "O carte Joker la întâmplare",
+                    "dezactivată la fiecare mână"
                 }
             },
             bl_final_bell = {
-                name = "Cerulean Bell",
+                name = "Clopot Azuriu",
                 text = {
-                    "Forces 1 card to",
-                    "always be selected"
+                    "Forțează 1 carte să",
+                    "fie mereu selectată"
                 }
             }
         },
@@ -3351,7 +3351,7 @@ return {
             extreme_couponer = "Extreme Couponer",
             completionist = "Completionist",
             completionist_plus = "Completionist+",
-            completionist_plus_plus = "Completionist++", 
+            completionist_plus_plus = "Completionist++",
         },
         achievement_descriptions = {
             ante_up = "Reach Ante 4",
@@ -3384,7 +3384,7 @@ return {
             extreme_couponer = "Discover every Voucher",
             completionist = "Discover 100% of your collection",
             completionist_plus = "Win with every deck on Gold Stake difficulty",
-            completionist_plus_plus = "Earn a Gold Sticker on every Joker", 
+            completionist_plus_plus = "Earn a Gold Sticker on every Joker",
         },
         challenge_names = {
             c_omelette_1 = "Omleta",
