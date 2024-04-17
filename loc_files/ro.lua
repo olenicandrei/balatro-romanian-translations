@@ -1436,33 +1436,33 @@ return {
         },
         Voucher = {
             v_overstock_norm = {
-                name = "Overstock",
+                name = "Suprastoc",
                 text = {
-                    "{C:attention}+1{} card slot",
-                    "available in shop"
+                    "{C:attention}+1{} spațiu pentru cărți",
+                    "disponibil în magazin"
                 }
             },
             v_clearance_sale = {
-                name = "Clearance Sale",
+                name = "Reduceri de Sezon",
                 text = {
-                    "All cards and packs in",
-                    "shop are {C:attention}#1#%{} off"
+                    "Toate cărțile și pachetele din",
+                    "magazin au reducere de {C:attention}#1#%{}"
                 }
             },
             v_tarot_merchant = {
-                name = "Tarot Merchant",
+                name = "Comerciant de Tarot",
                 text = {
-                    "{C:tarot}Tarot{} cards appear",
-                    "{C:attention}#1#X{} more frequently",
-                    "in the shop"
+                    "Cărțile {C:tarot}Tarot{} apar",
+                    "de {C:attention}#1#X{} mai des",
+                    "în magazin"
                 }
             },
             v_planet_merchant = {
-                name = "Planet Merchant",
+                name = "Comerciant de Planete",
                 text = {
-                    "{C:planet}Planet{} cards appear",
-                    "{C:attention}#1#X{} more frequently",
-                    "in the shop"
+                    "Cărțile {C:planet}Planetă{} apar",
+                    "de {C:attention}#1#X{} mai des",
+                    "în magazin"
                 }
             },
             v_hone = {
@@ -1556,54 +1556,54 @@ return {
                 }
             },
             v_overstock_plus = {
-                name = "Overstock Plus",
+                name = "Suprastoc Plus",
                 text = {
-                    "{C:attention}+1{} card slot",
-                    "available in shop"
+                    "{C:attention}+1{} spațiu pentru cărți",
+                    "disponibil în magazin"
                 },
                 unlock = {
-                    "Spend a total of",
-                    "{C:money}$#1#{} at the shop",
+                    "Cheltuie în total",
+                    "{C:money}$#1#{} în magazin",
                     "{C:inactive}($#2#)"
                 }
             },
             v_liquidation = {
-                name = "Liquidation",
+                name = "Lichidare Stoc",
                 text = {
-                    "All cards and packs in",
-                    "shop are {C:attention}#1#%{} off"
+                    "Toate cărțile și pachetele din",
+                    "magazin au reducere de {C:attention}#1#%{}"
                 },
                 unlock = {
-                    "Redeem at least",
-                    "{C:attention}#1#{C:voucher} Voucher{} cards",
-                    "in one run"
+                    "Revendică cel puțin",
+                    "{C:attention}#1# cărți {C:voucher} Cupon{}",
+                    "într-o partidă"
                 }
             },
             v_tarot_tycoon = {
-                name = "Tarot Tycoon",
+                name = "Magnat de Tarot",
                 text = {
-                    "{C:tarot}Tarot{} cards appear",
-                    "{C:attention}#1#X{} more frequently",
-                    "in the shop"
+                    "Cărțile {C:tarot}Tarot{} apar",
+                    "de {C:attention}#1#X{} mai des",
+                    "în magazin"
                 },
                 unlock = {
-                    "Buy a total of",
-                    "{C:attention}#1#{C:tarot} Tarot{} cards",
-                    "from the shop",
+                    "Cumpără în total",
+                    "{C:attention}#1# cărți {C:tarot} Tarot{}",
+                    "din magazin",
                     "{C:inactive}(#2#)"
                 }
             },
             v_planet_tycoon = {
-                name = "Planet Tycoon",
+                name = "Magnat de Planete",
                 text = {
-                    "{C:planet}Planet{} cards appear",
-                    "{C:attention}#1#X{} more frequently",
-                    "in the shop"
+                    "Cărțile {C:planet}Planetă{} apar",
+                    "de {C:attention}#1#X{} mai des",
+                    "în magazin"
                 },
                 unlock = {
-                    "Buy a total of",
-                    "{C:attention}#1#{C:planet} Planet{} cards",
-                    "from the shop",
+                    "Cumpără în total",
+                    "{C:attention}#1# cărți {C:planet} Planetă{}",
+                    "din magazin",
                     "{C:inactive}(#2#)"
                 }
             },
@@ -1764,181 +1764,181 @@ return {
         },
         Tarot = {
             c_fool = {
-                name = "The Fool",
+                name = "Nebunul",
                 text = {
-                    "Creates the last",
-                    "{C:tarot}Tarot{} or {C:planet}Planet{} card",
-                    "used during this run",
-                    "{s:0.8,C:tarot}The Fool{s:0.8} excluded"
+                    "Creează ultima",
+                    "carte {C:tarot}Tarot{} sau {C:planet}Planetă{}",
+                    "folosită în această partidă",
+                    "{s:0.8}Excluzând {s:0.8,C:tarot}Nebunul"
                 }
             },
             c_magician = {
-                name = "The Magician",
+                name = "Magicianul",
                 text = {
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "Îmbunătățește {C:attention}#1#{} carte",
+                    "selectată într-o",
                     "{C:attention}#2#"
                 }
             },
             c_high_priestess = {
-                name = "The High Priestess",
+                name = "Preoteasa",
                 text = {
-                    "Creates up to {C:attention}#1#",
-                    "random {C:planet}Planet{} cards",
-                    "{C:inactive}(Must have room)"
+                    "Creează până la {C:attention}#1#",
+                    "cărți {C:planet}Planetă{} la întâmplare",
+                    "{C:inactive}(Trebuie să aibă loc)"
                 }
             },
             c_empress = {
-                name = "The Empress",
+                name = "Împărateasa",
                 text = {
-                    "Enhances {C:attention}#1#",
-                    "selected cards to",
-                    "{C:attention}#2#s"
+                    "Îmbunătățește {C:attention}#1#{} cărți",
+                    "selectate în",
+                    "{C:attention}#2#"
                 }
             },
             c_emperor = {
-                name = "The Emperor",
+                name = "Împăratul",
                 text = {
-                    "Creates up to {C:attention}#1#",
-                    "random {C:tarot}Tarot{} cards",
-                    "{C:inactive}(Must have room)"
+                    "Creează până la {C:attention}#1#",
+                    "cărți {C:tarot}Tarot{} la întâmplare",
+                    "{C:inactive}(Trebuie să aibă loc)"
                 }
             },
             c_heirophant = {
-                name = "The Hierophant",
+                name = "Marele Preot",
                 text = {
-                    "Enhances {C:attention}#1#",
-                    "selected cards to",
-                    "{C:attention}#2#s"
+                    "Îmbunătățește {C:attention}#1#{} cărți",
+                    "selectate în",
+                    "{C:attention}#2#"
                 }
             },
             c_lovers = {
-                name = "The Lovers",
+                name = "Îndrăgostiții",
                 text = {
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "Îmbunătățește {C:attention}#1#{} carte",
+                    "selectată într-o",
                     "{C:attention}#2#"
                 }
             },
             c_chariot = {
-                name = "The Chariot",
+                name = "Faetonul",
                 text = {
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "Îmbunătățește {C:attention}#1#{} carte",
+                    "selectată într-o",
                     "{C:attention}#2#"
                 }
             },
             c_justice = {
-                name = "Justice",
+                name = "Dreptatea",
                 text = {
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "Îmbunătățește {C:attention}#1#{} carte",
+                    "selectată într-o",
                     "{C:attention}#2#"
                 }
             },
             c_hermit = {
-                name = "The Hermit",
+                name = "Eremitul",
                 text = {
-                    "Doubles money",
-                    "{C:inactive}(Max of {C:money}$#1#{C:inactive})"
+                    "Dublează banii",
+                    "{C:inactive}(Maxim {C:money}$#1#{C:inactive})"
                 }
             },
             c_wheel_of_fortune = {
-                name = "The Wheel of Fortune",
+                name = "Roata Norocului",
                 text = {
-                    "{C:green}#1# in #2#{} chance to add",
-                    "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, or",
-                    "{C:dark_edition}Polychrome{} edition",
-                    "to a random {C:attention}Joker"
+                    "{C:green}#1# din #2#{} șanse să adauge",
+                    "ediție {C:dark_edition}Laminat{}, {C:dark_edition}Holografic{},",
+                    "sau {C:dark_edition}Policrom{} la",
+                    "un {C:attention}Joker la întâmplare"
                 }
             },
             c_strength = {
-                name = "Strength",
+                name = "Forța",
                 text = {
-                    "Increases rank of",
-                    "up to {C:attention}#1#{} selected",
-                    "cards by {C:attention}1"
+                    "Crește rangul a",
+                    "până la {C:attention}#1#{} cărți",
+                    "selectate cu {C:attention}1"
                 }
             },
             c_hanged_man = {
-                name = "The Hanged Man",
+                name = "Spânzuratul",
                 text = {
-                    "Destroys up to",
-                    "{C:attention}#1#{} selected cards"
+                    "Distruge până la",
+                    "{C:attention}#1#{} cărți selectate"
                 }
             },
             c_death = {
-                name = "Death",
+                name = "Moartea",
                 text = {
-                    "Select {C:attention}#1#{} cards,",
-                    "convert the {C:attention}left{} card",
-                    "into the {C:attention}right{} card",
-                    "{C:inactive}(Drag to rearrange)"
+                    "Selectează {C:attention}#1#{} cărți,",
+                    "convertește cartea {C:attention}stângă{}",
+                    "în cartea {C:attention}dreaptă{}",
+                    "{C:inactive}(Trage pentru a rearanja)"
                 }
             },
             c_temperance = {
-                name = "Temperance",
+                name = "Echilibrul",
                 text = {
-                    "Gives the total sell",
-                    "value of all current",
-                    "Jokers {C:inactive}(Max of {C:money}$#1#{C:inactive})",
-                    "{C:inactive}(Currently {C:money}$#2#{C:inactive})"
+                    "Dă valoarea totală",
+                    "de vânzare a tuturor",
+                    "Jokerilor curenți {C:inactive}(Maxim {C:money}$#1#{C:inactive})",
+                    "{C:inactive}(Actualmente {C:money}$#2#{C:inactive})"
                 }
             },
             c_devil = {
-                name = "The Devil",
+                name = "Diavolul",
                 text = {
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "Îmbunătățește {C:attention}#1#{} carte",
+                    "selectată într-o",
                     "{C:attention}#2#"
                 }
             },
             c_tower = {
-                name = "The Tower",
+                name = "Turnul",
                 text = {
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "Îmbunătățește {C:attention}#1#{} carte",
+                    "selectată într-o",
                     "{C:attention}#2#"
                 }
             },
             c_star = {
-                name = "The Star",
+                name = "Steaua",
                 text = {
-                    "Converts up to",
-                    "{C:attention}#1#{} selected cards",
-                    "to {V:1}#2#{}"
+                    "Convertește până la",
+                    "{C:attention}#1#{} cărți selectate",
+                    "în {V:1}#2#{}"
                 }
             },
             c_moon = {
-                name = "The Moon",
+                name = "Luna",
                 text = {
-                    "Converts up to",
-                    "{C:attention}#1#{} selected cards",
-                    "to {V:1}#2#{}"
+                    "Convertește până la",
+                    "{C:attention}#1#{} cărți selectate",
+                    "în {V:1}#2#{}"
                 }
             },
             c_sun = {
-                name = "The Sun",
+                name = "Soarele",
                 text = {
-                    "Converts up to",
-                    "{C:attention}#1#{} selected cards",
-                    "to {V:1}#2#{}"
+                    "Convertește până la",
+                    "{C:attention}#1#{} cărți selectate",
+                    "în {V:1}#2#{}"
                 }
             },
             c_judgement = {
-                name = "Judgement",
+                name = "Judecata",
                 text = {
-                    "Creates a random",
-                    "{C:attention}Joker{} card",
-                    "{C:inactive}(Must have room)"
+                    "Creează o carte",
+                    "{C:attention}Joker{} la întâmplare",
+                    "{C:inactive}(Trebuie să aibă loc)"
                 }
             },
             c_world = {
-                name = "The World",
+                name = "Lumea",
                 text = {
-                    "Converts up to",
-                    "{C:attention}#1#{} selected cards",
-                    "to {V:1}#2#{}"
+                    "Convertește până la",
+                    "{C:attention}#1#{} cărți selectate",
+                    "în {V:1}#2#{}"
                 }
             }
         },
@@ -1946,109 +1946,109 @@ return {
             c_mercury = {
                 name = "Mercury",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}nvl.#1#{S:0.8}){} Crește nivelul la",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Multi and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} Multi și",
+                    "{C:chips}+#4#{} jetoane"
                 }
             },
             c_venus = {
                 name = "Venus",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}nvl.#1#{S:0.8}){} Crește nivelul la",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Multi and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} Multi și",
+                    "{C:chips}+#4#{} jetoane"
                 }
             },
             c_earth = {
                 name = "Earth",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}nvl.#1#{S:0.8}){} Crește nivelul la",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Multi and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} Multi și",
+                    "{C:chips}+#4#{} jetoane"
                 }
             },
             c_mars = {
                 name = "Mars",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}nvl.#1#{S:0.8}){} Crește nivelul la",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Multi and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} Multi și",
+                    "{C:chips}+#4#{} jetoane"
                 }
             },
             c_jupiter = {
                 name = "Jupiter",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}nvl.#1#{S:0.8}){} Crește nivelul la",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Multi and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} Multi și",
+                    "{C:chips}+#4#{} jetoane"
                 }
             },
             c_saturn = {
                 name = "Saturn",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}nvl.#1#{S:0.8}){} Crește nivelul la",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Multi and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} Multi și",
+                    "{C:chips}+#4#{} jetoane"
                 }
             },
             c_uranus = {
                 name = "Uranus",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}nvl.#1#{S:0.8}){} Crește nivelul la",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Multi and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} Multi și",
+                    "{C:chips}+#4#{} jetoane"
                 }
             },
             c_neptune = {
-                name = "Neptune",
+                name = "Neptun",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}nvl.#1#{S:0.8}){} Crește nivelul la",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Multi and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} Multi și",
+                    "{C:chips}+#4#{} jetoane"
                 }
             },
             c_pluto = {
                 name = "Pluto",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}nvl.#1#{S:0.8}){} Crește nivelul la",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Multi and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} Multi și",
+                    "{C:chips}+#4#{} jetoane"
                 }
             },
             c_ceres = {
                 name = "Ceres",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}nvl.#1#{S:0.8}){} Crește nivelul la",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Multi and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} Multi și",
+                    "{C:chips}+#4#{} jetoane"
                 }
             },
             c_planet_x = {
-                name = "Planet X",
+                name = "Planeta X",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}nvl.#1#{S:0.8}){} Crește nivelul la",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Multi and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} Multi și",
+                    "{C:chips}+#4#{} jetoane"
                 }
             },
             c_eris = {
                 name = "Eris",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}nvl.#1#{S:0.8}){} Crește nivelul la",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Multi and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} Multi și",
+                    "{C:chips}+#4#{} jetoane"
                 }
             },
         },
