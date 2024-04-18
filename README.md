@@ -27,9 +27,17 @@ A humble community-made version of the Romanian localization of Balatro.
 
 ### Translations
 
-✅ v0.1 — Only the game's sprites are translated to Romanian </br>
-✅ v0.2 — About 50% of the game's text elements are translated to Romanian </br>
-✅ v0.3 — About 80% of the game's text elements are translated to Romanian
+✅ v1.0 — 100% of the game is translated in Romanian
+
+### Installers
+
+| Category                                     | Status |
+| -------------------------------------------- | ------ |
+| Easy, automated script (Recommended)         | ✔️     |
+| Manual (Not Recommended)                     | ✔️     |
+| Steamodded                                   | ❌     |
+| Balamod                                      | ❌     |
+
 
 
 ## Contributors
