@@ -1466,93 +1466,93 @@ return {
                 }
             },
             v_hone = {
-                name = "Hone",
+                name = "Îmbunătățire",
                 text = {
-                    "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, and",
-                    "{C:dark_edition}Polychrome{} cards",
-                    "appear {C:attention}#1#X{} more often"
+                    "Cărțile {C:dark_edition}Laminate{}, {C:dark_edition}Holografice{},",
+                    "și {C:dark_edition}Policrome{}",
+                    "apar de {C:attention}#1#X{} mai des"
                 }
             },
             v_reroll_surplus = {
                 name = "Surplus de Aprovizionări",
                 text = {
-                    "Reaprovizionările costă",
+                    "Reaprovizionările costă cu",
                     "{C:money}$#1#{} mai puţin"
                 }
             },
             v_crystal_ball = {
-                name = "Crystal Ball",
+                name = "Minge de Cristal",
                 text = {
-                    "{C:attention}+1{} consumable slot"
+                    "{C:attention}+1{} spațiu de consumabile"
                 }
             },
             v_telescope = {
-                name = "Telescope",
+                name = "Telescop",
                 text = {
-                    "{C:attention}Celestial Packs{} always",
-                    "contain the {C:planet}Planet{}",
-                    "card for your most",
-                    "played {C:attention}poker hand"
+                    "{C:attention}Pachetele Celeste{} mereu",
+                    "conțin cartea {C:planet}Planetă{}",
+                    "pentru cea mai jucată",
+                    "{C:attention}mână de poker{} a ta"
                 }
             },
             v_grabber = {
-                name = "Grabber",
+                name = "Colecționar",
                 text = {
-                    "Permanently",
-                    "gain {C:blue}+#1#{} hand",
-                    "per round"
+                    "Primești",
+                    "permanent {C:blue}+#1#{} mână",
+                    "per rundă"
                 }
             },
             v_wasteful = {
-                name = "Wasteful",
+                name = "Risipitor",
                 text = {
-                    "Permanently",
-                    "gain {C:red}+#1#{} discard",
-                    "per round"
+                    "Primești",
+                    "permanent {C:red}+#1#{} aruncare",
+                    "per rundă"
                 }
             },
             v_seed_money = {
-                name = "Seed Money",
+                name = "Investiție Inițială",
                 text = {
-                    "Raise the cap on",
-                    "interest earned",
-                    "per round to {C:money}$#1#{}"
+                    "Crește limita",
+                    "dobânzii primite",
+                    "per rundă la {C:money}$#1#{}"
                 }
             },
             v_blank = {
-                name = "Blank",
+                name = "Gol",
                 text = {
-                    "{C:inactive}Does nothing?"
+                    "{C:inactive}Nu face nimic?"
                 }
             },
             v_magic_trick = {
-                name = "Magic Trick",
+                name = "Truc de Magie",
                 text = {
-                    "{C:attention}Playing cards{} can",
-                    "be purchased",
-                    "from the {C:attention}shop"
+                    "{C:attention}Cărțile de joc{} pot",
+                    "fi cumpărate",
+                    "din {C:attention}magazin"
                 }
             },
             v_hieroglyph = {
-                name = "Hieroglyph",
+                name = "Hieroglifă",
                 text = {
-                    "{C:attention}-#1#{} Ante,",
-                    "{C:blue}-#1#{} hand",
-                    "per round"
+                    "{C:attention}-#1#{} Miză,",
+                    "{C:blue}-#1#{} mână",
+                    "per rundă"
                 }
             },
             v_directors_cut = {
-                name = "Director's Cut",
+                name = "Varianta Regizorului",
                 text = {
-                    "Reroll Boss Blind",
-                    "{C:attention}1{} time per Ante,",
-                    "{C:money}$#1#{} per roll"
+                    "Schimbă Blind-ul Boss",
+                    "{C:attention}1{} dată per Miză,",
+                    "{C:money}$#1#{} per schimbare"
                 }
             },
             v_paint_brush = {
-                name = "Paint Brush",
+                name = "Pensulă",
                 text = {
-                    "{C:attention}+#1#{} hand size",
+                    "{C:attention}+#1#{} mărime mână",
                 }
             },
             v_overstock_plus = {
@@ -1588,7 +1588,7 @@ return {
                 },
                 unlock = {
                     "Cumpără în total",
-                    "{C:attention}#1# cărți {C:tarot} Tarot{}",
+                    "{C:attention}#1# de cărți {C:tarot} Tarot{}",
                     "din magazin",
                     "{C:inactive}(#2#)"
                 }
@@ -1602,29 +1602,29 @@ return {
                 },
                 unlock = {
                     "Cumpără în total",
-                    "{C:attention}#1# cărți {C:planet} Planetă{}",
+                    "{C:attention}#1# de cărți {C:planet} Planetă{}",
                     "din magazin",
                     "{C:inactive}(#2#)"
                 }
             },
             v_glow_up = {
-                name = "Glow Up",
+                name = "Perfecționat",
                 text = {
-                    "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, and",
-                    "{C:dark_edition}Polychrome{} cards",
-                    "appear {C:attention}#1#X{} more often"
+                    "Cărțile {C:dark_edition}Laminate{}, {C:dark_edition}Holografice{},",
+                    "și {C:dark_edition}Policrome{}",
+                    "apar de {C:attention}#1#X{} mai des"
                 },
                 unlock = {
-                    "Have at least {C:attention}#1#",
-                    "{C:attention}Joker{} cards with",
-                    "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, or",
-                    "{C:dark_edition}Polychrome{} edition"
+                    "Ai cel puțin {C:attention}#1#",
+                    "cărți {C:attention}Joker{} cu",
+                    "ediție {C:dark_edition}Laminată{}, {C:dark_edition}Holografică{},",
+                    "sau {C:dark_edition}Policromă{}"
                 }
             },
             v_reroll_glut = {
-                name = "Reroll Glut",
+                name = "Abundență de Aprovizionări",
                 text = {
-                    "Reaprovizionările costă",
+                    "Reaprovizionările costă cu",
                     "{C:money}$#1#{} mai puţin"
                 },
                 unlock = {
@@ -1634,131 +1634,130 @@ return {
                 }
             },
             v_omen_globe = {
-                name = "Omen Globe",
+                name = "Glob de Augur",
                 text = {
-                    "{C:spectral}Spectral{} cards may",
-                    "appear in any of",
-                    "the {C:attention}Arcana Packs"
+                    "Cărți {C:spectral}Spectrale{} pot",
+                    "apărea în oricare",
+                    "dintre {C:attention}Pachetele Arcana"
                 },
                 unlock = {
-                    "Use a total of {C:attention}#1#",
-                    "{C:tarot}Tarot{} cards from any",
-                    "{C:tarot}Arcana Pack",
+                    "Folosește în total {C:attention}#1#",
+                    "de cărți {C:tarot}Tarot{} din orice",
+                    "{C:tarot}Pachet Arcana",
                     "{C:inactive}(#2#)"
                 }
             },
             v_observatory = {
-                name = "Observatory",
+                name = "Observator",
                 text = {
-                    "{C:planet}Planet{} cards in your",
-                    "{C:attention}consumable{} area give",
-                    "{X:red,C:white} X#1# {} Multi for their",
-                    "specified {C:attention}poker hand"
+                    "Cărțile {C:planet}Planetă{} din",
+                    "zona de {C:attention}consumabile{} generează",
+                    "{X:red,C:white} X#1# {} Multi pentru",
+                    "{C:attention}mâinile de poker{} menționate"
                 },
                 unlock = {
-                    "Use a total of {C:attention}#1#",
-                    "{C:planet}Planet{} cards from any",
-                    "{C:planet}Celestial Pack",
+                    "Folosește în total {C:attention}#1#",
+                    "de cărți {C:planet}Planetă{} din orice",
+                    "{C:planet}Pachet Celest",
                     "{C:inactive}(#2#)"
                 }
             },
             v_nacho_tong = {
-                name = "Nacho Tong",
+                name = "Clește de Nachos",
                 text = {
-                    "Permanently",
-                    "gain {C:blue}+#1#{} hand",
-                    "per round"
+                    "Primești",
+                    "permanent {C:blue}+#1#{} mână",
+                    "per rundă"
                 },
                 unlock = {
-                    "Play a total",
-                    "of {C:attention}#1#{} cards",
+                    "Joacă în total",
+                    "{C:attention}#1#{} de cărți",
                     "{C:inactive}(#2#)"
                 }
             },
             v_recyclomancy = {
-                name = "Recyclomancy",
+                name = "Reciclomanie",
                 text = {
-                    "Permanently",
-                    "gain {C:red}+#1#{} discard",
-                    "per round"
+                    "Primești",
+                    "permanent {C:red}+#1#{} aruncare",
+                    "per rundă"
                 },
                 unlock = {
-                    "Discard a total",
-                    "of {C:attention}#1#{} cards",
+                    "Aruncă în total",
+                    "{C:attention}#1#{} de cărți",
                     "{C:inactive}(#2#)"
                 }
             },
             v_money_tree = {
-                name = "Money Tree",
+                name = "Copac cu Bani",
                 text = {
-                    "Raise the cap on",
-                    "interest earned",
-                    "per round to {C:money}$#1#{}"
+                    "Crește limita",
+                    "dobânzii primite",
+                    "per rundă la {C:money}$#1#{}"
                 },
                 unlock = {
-                    "Max out the interest",
-                    "per round earnings for",
-                    "{C:attention}#1#{} consecutive rounds",
+                    "Atinge limita dobânzii",
+                    "primite per rundă pentru",
+                    "{C:attention}#1#{} runde consecutive",
                     "{C:inactive}(#2#)"
                 }
             },
             v_antimatter = {
-                name = "Antimatter",
+                name = "Antimaterie",
                 text = {
-                    "{C:dark_edition}+1{} Joker Slot"
+                    "{C:dark_edition}+1{} Spațiu Jokeri"
                 },
                 unlock = {
-                    "Redeem {C:voucher}Blank{}",
-                    "{C:attention}#1#{} total times",
+                    "Revendică {C:voucher}Gol{}",
+                    "de {C:attention}#1#{} ori în total",
                     "{C:inactive}(#2#)"
                 }
             },
             v_illusion = {
-                name = "Illusion",
+                name = "Iluzie",
                 text = {
-                    "{C:attention}Playing cards{} in shop",
-                    "may have an {C:enhanced}Enhancement{},",
-                    "{C:dark_edition}Edition{}, and/or a {C:attention}Seal{}"
+                    "{C:attention}Cărțile de joc{} din magazin",
+                    "pot avea o {C:enhanced}Îmbunătățire{},",
+                    "{C:dark_edition}Ediție{}, și/sau un {C:attention}Sigiliu{}"
                 },
                 unlock = {
-                    "Buy a total of",
-                    "{C:attention}#1#{} playing cards",
-                    "from the shop",
+                    "Cumpără în total",
+                    "{C:attention}#1#{} de cărți de joc",
+                    "din magazin",
                     "{C:inactive}(#2#)"
                 }
             },
             v_petroglyph = {
-                name = "Petroglyph",
+                name = "Petroglifă",
                 text = {
-                    "{C:attention}-#1#{} Ante,",
-                    "{C:red}-#1#{} discard",
-                    "per round"
+                    "{C:attention}-#1#{} Miză,",
+                    "{C:red}-#1#{} aruncare",
+                    "per rundă"
                 },
                 unlock = {
-                    "Reach Ante",
-                    "level {E:1,C:attention}#1#"
+                    "Ajungi la Miza {E:1,C:attention}#1#"
                 }
             },
             v_retcon = {
-                name = "Retcon",
+                name = "Continuitate Retroactivă",
                 text = {
-                    "Reroll Boss Blind",
-                    "{C:attention}unlimited{} times,",
-                    "{C:money}$#1#{} per roll"
+                    "Schimbă Blind-ul Boss",
+                    "de {C:attention}nenumărate{} ori,",
+                    "{C:money}$#1#{} per schimbare"
                 },
                 unlock = {
-                    "Discover",
-                    "{C:attention}#1#{} Blinds"
+                    "Descoperă",
+                    "{C:attention}#1#{} de Blind-uri"
                 }
             },
             v_palette = {
-                name = "Palette",
+                name = "Paletă",
                 text = {
-                    "{C:attention}+#1#{} hand size",
+                    "{C:attention}+#1#{} mărime mână",
                 },
                 unlock = {
-                    "Reduce hand size",
-                    "down to {C:attention}#1#{} cards"
+                    "Micșorează-ți mărimea mâinii",
+                    "până la {C:attention}#1#{} cărți"
                 }
             }
         },
@@ -2871,7 +2870,7 @@ return {
         },
         Other = {
             gold_seal = {
-                name = "Gold Seal",
+                name = "Sigiliu Auriu",
                 text = {
                     "Primeşte {C:money}$3{} când această",
                     "carte este jucată",
