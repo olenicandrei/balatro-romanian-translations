@@ -9,27 +9,30 @@ A humble community-made version of the Romanian localization of Balatro.
 
 ## Cum instalez mod-ul?
 
-- Descărcați fișierul Balatro_RO_Windows.cmd
-- Faceți dublu clic pe fișierul Balatro_RO_Windows.cmd pe care tocmai ce l-ați descărcat. <br />
+- Descărcați fișierul BalatRO.bat
+- Faceți dublu clic pe fișierul BalatRO.bat pe care tocmai ce l-ați descărcat.
 - Windows Defender ar putea bloca executarea scriptului. Faceți clic pe More info și apoi pe Run anyway.
-- Lansați jocul Balatro de pe Steam și selectați limba română folosind butonul din dreapta jos. Balatro este tradus în română 🥳
+- Când scriptul a terminat de descărcat fișierele necesare, se va deschide automat folder-ul BalatRO în care aveți fișierele de localizare în limba Română ale jocului. Țineți fereastra deschisă, veți avea nevoie mai târziu de aceste fișiere.
+- Acum deschideți folder-ul unde se află executabilul Balatro.exe și faceți clic dreapta pe Balatro.exe (pe Windows 11 apăsați pe "Show more options") apoi duceți cursorul mouse-ului pe 7zip și faceți clic pe "Open Archive".
+- Înapoi în folder-ul BalatRO, selectați tot ce se află în acesta și dați "drag and drop" în fereastra 7zip. 7zip vă va întreba dacă sunteți sigur că vreți să copiați fișiere înăuntrul arhivei Balatro.exe. Faceți clic pe "Yes"
+- Mod-ul este instalat acum! 🥳 Puteți închide fereastra 7zip, și puteți deschide jocul Balatro în mod obișnuit prin Steam. În joc, trebuie să selectați limba română din meniul principal
 
 > [!CAUTION]
-> Dacă jocul dvs. nu este instalat în locul obișnuit pe C:, scriptul vă va întreba unde se află Balatro.exe. Îl puteți găsi prin Steam făcând clic-dreapta pe Balatro în biblioteca dvs., apoi Manage și Browse Local Files.
+> Dacă nu aveți 7zip instalat, scriptul îl va instala automat. 7zip este un software gratis pentru arhivarea și dezarhivarea fișierelor și este necesar pentru a modifica fișierele jocului Balatro pentru a instala acest mod.
 
 > [!NOTE]
-> Odată ce instalarea este completată, puteți șterge scriptul. Doar amintiți-vă să reveniți aici și să-l descărcați din nou când jocul este actualizat: va trebui să-l rulați din nou pentru ca jocul să fie tradus corect din nou.
+> Odată ce instalarea este completată, puteți șterge scriptul și fișierele descărcate de acesta. Doar amintiți-vă să reveniți aici și să-l descărcați din nou când jocul este actualizat: va trebui să-l rulați din nou pentru ca jocul să fie tradus corect din nou.
 
-Dacă vă place traducerea, nu ezitați să le spuneți prietenilor dvs., streamerilor și creatorilor de video preferați pentru ca și ei să se bucure de ea!
 
 ## Current state
 
 ### Translations
 
 ✅ v0.1 — Only the game's sprites are translated to Romanian
+✅ v0.2 — About 50% of the game's text elements are translated to Romanian
 
 ## Contributors
 
-Romanian localization done by Andrei Olenic.
+Romanian localization done by Andrei Olenic and Diana Calistru.
 
 A HUGE thank you to the French Localization community who made this all possible by creating [their mod](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/). Thank you to Robin Lassire, Gabriel Rodrigues, Pierre-Alexandre Rouillon, Stanislas Signoud (Signez), Bastien Luneteau, Quentin Furtys, Nicolas Cordier, François Beaumont!
