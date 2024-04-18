@@ -72,7 +72,7 @@ function Game:start_up()
         end
     end
 
-    self.SETTINGS.language = self.SETTINGS.language or 'en-us'
+    self.SETTINGS.language = self.SETTINGS.language or 'ro'
     boot_timer('settings', 'window init', 0.2)
     self:init_window()
 
@@ -931,7 +931,7 @@ function Game:set_language()
 
             ------------------------------------------
 
-            G.SETTINGS.language = 'en-us'
+            G.SETTINGS.language = 'ro'
         end
         -------------------------------------------------------
         --IF LANGUAGE NEEDS TO BE SET ON EVERY REBOOT, SET HERE
@@ -971,7 +971,7 @@ function Game:set_language()
         end
     end
 
-    self.LANG = self.LANGUAGES[self.SETTINGS.language] or self.LANGUAGES['en-us']
+    self.LANG = self.LANGUAGES[self.SETTINGS.language] or self.LANGUAGES['ro']
 
     local localization = love.filesystem.getInfo('localization/'..G.SETTINGS.language..'.lua')
     if localization ~= nil then
