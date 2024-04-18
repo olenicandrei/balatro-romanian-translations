@@ -526,214 +526,213 @@ return {
                     "generează {C:money}$#1#{} când sunt punctate",
                 },
                 unlock = {
-                    "Play a 5 card hand",
-                    "that contains only",
-                    "{C:attention,E:1}Gold{} cards"
+                    "Joacă o mână cu 5 cărți",
+                    "care conține numai",
+                    "cărți {C:attention,E:1}Aurii{}"
                 }
             },
             j_mr_bones = {
-                name = "Mr. Bones",
+                name = "Dl. Oase",
                 text = {
-                    "Prevents Death",
-                    "if chips scored",
-                    "are at least {C:attention}25%",
-                    "of required chips",
-                    "{S:1.1,C:red,E:2}self destructs{}"
+                    "Previne Moartea",
+                    "dacă Jetoanele punctate",
+                    "sunt măcar {C:attention}25% {} din",
+                    "Jetoanele necesare",
+                    "{S:1.1,C:red,E:2}se autodistruge{}"
                 },
                 unlock = {
-                    "Lose {C:attention,E:1}#1#{} runs",
+                    "Pierde {C:attention,E:1}#1#{} partide",
                     "{C:inactive}(#2#)"
                 }
             },
             j_acrobat = {
                 name = "Acrobat",
                 text = {
-                    "{X:red,C:white} X#1# {} Multi on {C:attention}final",
-                    "{C:attention}hand{} of round"
+                    "{X:red,C:white} X#1# {} Multi la {C:attention}mâna",
+                    "{C:attention}finală{} a rundei"
                 },
                 unlock = {
-                    "Play {C:attention,E:1}#1#{} hands",
+                    "Joacă {C:attention,E:1}#1#{} mâini",
                     "{C:inactive}(#2#)"
                 }
             },
             j_sock_and_buskin = {
-                name = "Sock and Buskin",
+                name = "Tragicomedie",
                 text = {
-                    "Retrigger all",
-                    "played {C:attention}face{} cards"
+                    "Reactivează toate",
+                    "cărțile {C:attention}cu figuri{} jucate"
                 },
                 unlock = {
-                    "Play a total of",
-                    "{C:attention,E:1}#1#{} face cards",
+                    "Joacă un total de",
+                    "{C:attention,E:1}#1#{} cărți cu figuri",
                     "{C:inactive}(#2#)"
                 }
             },
             j_green_joker = {
-                name = "Green Joker",
+                name = "Joker Verde",
                 text = {
-                    "{C:mult}+#1#{} Multi per hand played",
-                    "{C:mult}-#2#{} Multi per discard",
-                    "{C:inactive}(Currently {C:mult}+#3#{C:inactive} Multi)"
+                    "{C:mult}+#1#{} Multi per mână jucată",
+                    "{C:mult}-#2#{} Multi per aruncare",
+                    "{C:inactive}(Actualmente {C:mult}+#3#{C:inactive} Multi)"
                 }
             },
             j_swashbuckler = {
-                name = "Swashbuckler",
+                name = "Aventurier",
                 text = {
-                    "Adds the sell value of",
-                    "all owned {C:attention}Jokers{} left",
-                    "of this card to Multi",
-                    "{C:inactive}(Currently {C:mult}+#1#{C:inactive} Multi)"
+                    "Adaugă valoarea de vânzare a",
+                    "tuturor {C:attention}Jokerilor{} deținuți",
+                    "aflați la stânga față de această carte la Multi",
+                    "{C:inactive}(Actualmente {C:mult}+#1#{C:inactive} Multi)"
                 },
                 unlock = {
-                    "Sell a total of",
-                    "{C:attention,E:1}#1#{} Joker cards",
+                    "Vinde un total de",
+                    "{C:attention,E:1}#1#{} cărți Joker",
                     "{C:inactive}(#2#)"
                 }
             },
             j_troubadour = {
-                name = "Troubadour",
+                name = "Trubadur",
                 text = {
-                    "{C:attention}+#1#{} hand size,",
-                    "{C:red}-#2#{} hands per round"
+                    "{C:attention}+#1#{} mărime mână,",
+                    "{C:red}-#2#{} mâini per rundă"
                 },
                 unlock = {
-                    "Win {C:attention,E:1}#1#{} consecutive",
-                    "rounds by playing",
-                    "only 1 hand"
+                    "Câștigă {C:attention,E:1}#1#{} runde",
+                    "consecutive jucând",
+                    "1 singură mână"
                 }
             },
             j_certificate = {
-                name = "Certificate",
+                name = "Certificat",
                 text = {
-                    "When round begins,",
-                    "add a random {C:attention}playing",
-                    "{C:attention}card{} with a random",
-                    "{C:attention}seal{} to your hand"
+                    "Când începe runda,",
+                    "adaugă o {C:attention}carte de joc",
+                    "la întâmplare cu un {C:attention}sigiliu{}",
+                    "la întâmplare în mâna ta"
                 },
                 unlock = {
-                    "Have a Gold",
-                    "playing card with",
-                    "a {C:attention,E:1}Gold Seal"
+                    "Deține o carte",
+                    "de joc Aurie cu",
+                    "un {C:attention,E:1}Sigiliu Auriu"
                 }
             },
             j_smeared = {
-                name = "Smeared Joker",
+                name = "Joker Mânjit",
                 text = {
-                    "{C:hearts}Hearts{} and {C:diamonds}Diamonds",
-                    "count as the same suit,",
-                    "{C:spades}Spades{} and {C:clubs}Clubs",
-                    "count as the same suit"
+                    "{C:hearts}Cupele{} și {C:diamonds}Carourile",
+                    "se consideră aceeași culoare,",
+                    "{C:spades}Picile{} și {C:clubs}Treflele",
+                    "se consideră aceeași culoare"
                 },
                 unlock = {
-                    "Have at least {C:attention}#1#",
-                    "{E:1,C:attention}#2#{} in",
-                    "your deck"
+                    "Deține cel puțin {C:attention}#1#",
+                    "{E:1,C:attention}#2#{} în",
+                    "pachetul tău"
                 }
             },
             j_throwback = {
-                name = "Throwback",
+                name = "Retro",
                 text = {
-                    "{X:mult,C:white} X#1# {} Multi for each",
-                    "{C:attention}Blind{} skipped this run",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Multi)"
+                    "{X:mult,C:white} X#1# {} Multi pentru",
+                    "fiecare {C:attention}Blind{} sărit",
+                    "{C:inactive}(Actualmente {X:mult,C:white} X#2# {C:inactive} Multi)"
                 },
                 unlock = {
-                    "Continue a saved run",
-                    "from the main menu"
+                    "Continuă o partidă salvată",
+                    "din meniul principal"
                 }
             },
             j_hanging_chad = {
-                name = "Hanging Chad",
+                name = "Vot Invalid",
                 text = {
-                    "Retrigger {C:attention}first{} played",
-                    "card used in scoring"
+                    "Reactivează {C:attention}prima{} carte",
+                    "jucată care este punctată"
                 },
                 unlock = {
-                    "Beat a Boss Blind",
-                    "with a {E:1,C:attention}#1#"
+                    "Învinge un Blind Boss",
+                    "cu {E:1,C:attention}#1#"
                 }
             },
             j_rough_gem = {
-                name = "Rough Gem",
+                name = "Diamant Neșlefuit",
                 text = {
-                    "Played cards with",
-                    "{C:diamonds}Diamond{} suit earn",
-                    "{C:money}$#1#{} when scored",
+                    "Cărțile de {C:diamonds}Caro{}",
+                    "jucate generează",
+                    "{C:money}$#1#{} când sunt punctate",
                 },
                 unlock = {
-                    "Have at least {E:1,C:attention}#1#",
-                    "cards with {E:1,C:attention}#2#",
-                    "suit in your deck"
+                    "Deține cel puțin {E:1,C:attention}#1#",
+                    "de cărți de {E:1,C:attention}#2#",
+                    "în pachetul tău"
                 }
             },
             j_bloodstone = {
-                name = "Bloodstone",
+                name = "Piatră Sângerie",
                 text = {
-                    "{C:green}#1# in #2#{} chance for",
-                    "played cards with",
-                    "{C:hearts}Heart{} suit to give",
-                    "{X:mult,C:white} X#3# {} Multi when scored",
+                    "{C:green}#1# din #2#{} șanse ca",
+                    "cărțile de {C:hearts}Cupă{}",
+                    "jucate să genereze",
+                    "{X:mult,C:white} X#3# {} Multi când sunt punctate",
                 },
                 unlock = {
-                    "Have at least {E:1,C:attention}#1#",
-                    "cards with {E:1,C:attention}#2#",
-                    "suit in your deck"
+                    "Deține cel puțin {E:1,C:attention}#1#",
+                    "de cărți de {E:1,C:attention}#2#",
+                    "în pachetul tău"
                 }
             },
             j_arrowhead = {
-                name = "Arrowhead",
+                name = "Vârf de Săgeată",
                 text = {
-                    "Played cards with",
-                    "{C:spades}Spade{} suit give",
-                    "{C:chips}+#1#{} Chips when scored",
+                    "Cărțile de {C:spades}Pică{}",
+                    "jucate generează",
+                    "{C:chips}+#1#{} Jetoane când sunt punctate",
                 },
                 unlock = {
-                    "Have at least {E:1,C:attention}#1#",
-                    "cards with {E:1,C:attention}#2#",
-                    "suit in your deck"
+                    "Deține cel puțin {E:1,C:attention}#1#",
+                    "de cărți de {E:1,C:attention}#2#",
+                    "în pachetul tău"
                 }
             },
             j_onyx_agate = {
-                name = "Onyx Agate",
+                name = "Agat Onix",
                 text = {
-                    "Played cards with",
-                    "{C:clubs}Club{} suit give",
-                    "{C:mult}+#1#{} Multi when scored",
+                    "Cărțile de {C:clubs}Treflă{}",
+                    "jucate generează",
+                    "{C:mult}+#1#{} Multi când sunt punctate",
                 },
                 unlock = {
-                    "Have at least {E:1,C:attention}#1#",
-                    "cards with {E:1,C:attention}#2#",
-                    "suit in your deck"
+                    "Deține cel puțin {E:1,C:attention}#1#",
+                    "de cărți de {E:1,C:attention}#2#",
+                    "în pachetul tău"
                 }
             },
             j_glass = {
-                name = "Glass Joker",
+                name = "Joker de Sticlă",
                 text = {
-                    "Gains {X:mult,C:white} X#1# {} Multi",
-                    "for every {C:attention}Glass Card",
-                    "that is destroyed",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Multi)"
+                    "Primește {X:mult,C:white} X#1# {} Multi",
+                    "pentru fiecare {C:attention}Carte de Sticlă",
+                    "care este distrusă",
+                    "{C:inactive}(Actualmente {X:mult,C:white} X#2# {C:inactive} Multi)"
                 },
                 unlock = {
-                    "Have at least {E:1,C:attention}#1#",
-                    "{E:1,C:attention}#2#s{} in",
-                    "your deck"
+                    "Deține cel puțin {E:1,C:attention}#1#",
+                    "{E:1,C:attention}#2#{} în",
+                    "pachetul tău"
                 }
             },
             j_ring_master = {
-                name = "Showman",
+                name = "Director de Circ",
                 text = {
-                    "{C:attention}Joker{}, {C:tarot}Tarot{}, {C:planet}Planet{},",
-                    "and {C:spectral}Spectral{} cards may",
-                    "appear multiple times"
+                    "Cărțile {C:attention}Joker{}, {C:tarot}Tarot{},",
+                    "{C:planet}Planetă{}, și {C:spectral}Spectrale{} pot",
+                    "apărea de mai multe ori fiecare"
                 },
                 unlock = {
-                    "Reach Ante",
-                    "level {E:1,C:attention}#1#"
+                    "Ajunge la Miza {E:1,C:attention}#1#"
                 }
             },
             j_flower_pot = {
-                name = "Flower Pot",
+                name = "Ghiveci de Flori",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi if played",
                     "hand has a scoring",
