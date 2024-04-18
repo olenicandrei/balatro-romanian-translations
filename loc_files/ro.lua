@@ -1228,10 +1228,10 @@ return {
             j_castle = {
                 name = "Castel",
                 text = {
-                    "This Joker gains {C:chips}+#1#{} Chips",
-                    "per discarded {V:1}#2#{} card,",
-                    "suit changes every round",
-                    "{C:inactive}(Currently {C:chips}+#3#{C:inactive} Chips)"
+                    "Acest Joker primește {C:chips}+#1#{} Jetoane",
+                    "per carte de {V:1}#2#{} aruncată,",
+                    "culoarea se schimbă în fiecare rundă",
+                    "{C:inactive}(Actualmente {C:chips}+#3#{C:inactive} Jetoane)"
                 },
             },
             j_smiley = {
@@ -1245,10 +1245,10 @@ return {
             j_campfire = {
                 name = "Foc de Tabără",
                 text = {
-                    "This Joker gains {X:mult,C:white}X#1#{} Multi",
-                    "for each card {C:attention}sold{}, resets",
-                    "when {C:attention}Boss Blind{} is defeated",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Multi)"
+                    "Acest Joker primește {X:mult,C:white}X#1#{} Multi",
+                    "pentru fiecare carte {C:attention}vândută{}, se resetează",
+                    "când {C:attention}Blind-ul Boss{} este învins",
+                    "{C:inactive}(Actualmente {X:mult,C:white} X#2# {C:inactive} Multi)"
                 }
             },
 
