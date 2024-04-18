@@ -151,10 +151,10 @@ if %gameFound%==0 (
 	set "gameFound=1"
     ) else (
 	echo Nu a fost selectat jocul Balatro. Va trebui sa instalati mod-ul manual. Pentru a face asta, urmati urmatoarele instructiuni:
-	echo 1. Se va deschide automat folder-ul BalatRO in care aveti fisierele de localizare in limba Romana ale jocului. Tineti fereastra deschisa, veti avea nevoie mai tarziu de aceste fisiere
+	echo 1. Se va deschide automat folder-ul "BalatRO Files" in care aveti fisierele de localizare in limba Romana ale jocului. Tineti fereastra deschisa, veti avea nevoie mai tarziu de aceste fisiere
 	echo 2. Acum deschideti folder-ul unde se afla executabilul Balatro.exe. Daca nu stiti unde se afla Balatro.exe, il puteti gasi in biblioteca Steam apasand clic dreapta pe jocul Balatro, iar apoi pe Gestioneaza si pe Rasfoieste Fisierele Locale
 	echo 3. Faceti clic dreapta pe Balatro.exe (pe Windows 11 apasati pe "Show more options"^), apoi duceti cursorul mouse-ului pe 7zip si faceti clic pe ^"Open Archive^"^. ^(Daca nu aveti 7zip instalat, va trebui sa il instalati pentru a continua procesul de instalare^)
-	echo 4. Inapoi in fereastra BalatRO, selectati tot ce se afla in acesta si trageti fisierele in fereastra 7zip. 7zip va intreba daca sunteti sigur ca vreti sa copiati fisiere inauntrul arhivei Balatro.exe. Faceti clic pe "Yes"
+	echo 4. Inapoi in fereastra "BalatRO Files" selectati tot ce se afla in aceasta si trageti fisierele in fereastra 7zip. 7zip va intreba daca sunteti sigur ca vreti sa copiati fisiere inauntrul arhivei Balatro.exe. Faceti clic pe "Yes"
 	echo 5. Mod-ul este instalat acum! Puteti inchide fereastra 7zip, si puteti deschide jocul Balatro in mod obisnuit prin Steam. In joc, trebuie sa selectati limba romana din meniul principal
 	explorer "!RESOURCES!" 
     )
