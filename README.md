@@ -19,7 +19,7 @@ A humble community-made version of the Romanian localization of Balatro.
 > Dacă nu aveți 7zip instalat, scriptul îl va instala automat. 7zip este un software gratis pentru arhivarea și dezarhivarea fișierelor și este necesar pentru a modifica fișierele jocului Balatro pentru a instala acest mod.
 
 > [!NOTE]
-> Odată ce instalarea este completată, puteți șterge scriptul. Doar amintiți-vă să reveniți aici și să-l descărcați din nou când jocul este actualizat: va trebui să-l rulați din nou pentru ca jocul să fie tradus corect din nou.
+> Odată ce instalarea este completată, puteți șterge scriptul. Doar amintiți-vă să reveniți aici și să-l descărcați din nou când jocul este actualizat: va trebui să-l rulați din nou pentru ca jocul să fie tradus corect din nou. </br>
 > Mod-ul funcționează pe cea mai nouă versiune a jocului Balatro (1.0.0n)
 
 
