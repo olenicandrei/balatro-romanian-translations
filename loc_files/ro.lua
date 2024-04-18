@@ -1355,7 +1355,7 @@ return {
             j_burnt = {
                 name = "Joker Ars",
                 text = {
-                    "Creşte nivelul primii",
+                    "Creşte nivelul primei",
                     "mâini de poker {C:attention}aruncate",
                     "în fiecare rundă",
                 },
