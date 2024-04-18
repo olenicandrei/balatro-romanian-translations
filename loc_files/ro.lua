@@ -1254,10 +1254,10 @@ return {
 
 
             j_stuntman = {
-                name = "Stuntman",
+                name = "Cascador",
                 text = {
-                    "{C:chips}+#1#{} Chips,",
-                    "{C:attention}-#2#{} hand size"
+                    "{C:chips}+#1#{} Jetoane,",
+                    "{C:attention}-#2#{} mărime mână"
                 },
                 unlock = {
                     "Dintr-o mână,",
@@ -1266,12 +1266,12 @@ return {
                 }
             },
             j_invisible = {
-                name = "Invisible Joker",
+                name = "Joker Invizibil",
                 text = {
-                    "After {C:attention}#1#{} rounds,",
-                    "sell this card to",
-                    "{C:attention}Duplicate{} a random Joker",
-                    "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)"
+                    "După {C:attention}#1#{} runde,",
+                    "vinde această carte pentru a",
+                    "{C:attention}Duplica{} un Joker la întâmplare",
+                    "{C:inactive}(Actualmente {C:attention}#2#{C:inactive}/#1#)"
                 },
                 unlock = {
                     "Câștigă o partidă",
@@ -1280,10 +1280,10 @@ return {
                 }
             },
             j_brainstorm = {
-                name = "Brainstorm",
+                name = "Brainstorming",
                 text = {
-                    "Copies the ability",
-                    "of leftmost {C:attention}Joker"
+                    "Copiază abilitatea celui",
+                    "mai din stânga {C:attention}Joker"
                 },
                 unlock = {
                     "Aruncă o",
@@ -1291,12 +1291,12 @@ return {
                 }
             },
             j_satellite = {
-                name = "Satellite",
+                name = "Satelit",
                 text = {
-                    "Earn {C:money}$#1#{} at end of",
-                    "round per unique {C:planet}Planet",
-                    "card used this run",
-                    "{C:inactive}(Currently {C:money}$#2#{C:inactive})"
+                    "Generează {C:money}$#1#{} la finalul",
+                    "rundei per carte {C:planet}Planetă",
+                    "unică folosită partida aceasta",
+                    "{C:inactive}(Actualmente {C:money}$#2#{C:inactive})"
                 },
                 unlock = {
                     "Ai {E:1,C:money}$#1#",
@@ -1304,7 +1304,7 @@ return {
                 }
             },
             j_shoot_the_moon = {
-                name = "Shoot the Moon",
+                name = "Nu Riști, Nu Câștigi",
                 text = {
                     "{C:mult}+#1#{} Multi pentru",
                     "fiecare {C:attention}Damă{}",
@@ -1848,7 +1848,7 @@ return {
                     "{C:green}#1# din #2#{} șanse să adauge",
                     "ediție {C:dark_edition}Laminat{}, {C:dark_edition}Holografic{},",
                     "sau {C:dark_edition}Policrom{} la",
-                    "un {C:attention}Joker la întâmplare"
+                    "un {C:attention}Joker{} la întâmplare"
                 }
             },
             c_strength = {
