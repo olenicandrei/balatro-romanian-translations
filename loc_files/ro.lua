@@ -2841,7 +2841,7 @@ return {
                 text = {
                     "Balansează {C:blue}Jetoanele{} şi",
                     "{C:red}Multi{} când este calculat",
-                    "scorul mâinii jucate",
+                    "scorul mâinii jucate.",
                     "{C:red}X#1#{} mărimea Blind-ului de bază"
                 }
             },
@@ -2965,7 +2965,7 @@ return {
             },
             playing_card = {
                 text = {
-                    " {C:light_black}#1# din {V:1}#2# "
+                    " {C:light_black}#1# de {V:1}#2# "
                 }
             },
             card_chips = {
@@ -3585,10 +3585,10 @@ return {
             k_compatible = "compatibil",
             k_incompatible = "incompatibil",
             k_active = "activ",
-            k_round = "Rundă",
-            k_ante = "Miză",
+            k_round = "Runda",
+            k_ante = "Miza",
             k_seed = "Seed",
-            k_reroll = "Schimbă",
+            k_reroll = "Reaprovizionare",
             k_mult = "Multi",
             k_rank = "Rang",
             k_suit = "Culoare",
@@ -4044,7 +4044,7 @@ return {
             },
             fh_8 = {
                 "Generează {C:attention}300 de Jetoane{}",
-                "înainte de a rămâne fără{C:blue}Mâini",
+                "înainte de a rămâne fără {C:blue}Mâini",
                 "pentru a câştiga această rundă.",
                 "Mult succes!"
             },
@@ -4086,8 +4086,7 @@ return {
             },
             s_5 = {
                 "Fii pretenţios, poţi avea",
-                "doar {C:attention}5 Jokeri{}",
-                "o dată"
+                "doar {C:attention}5 Jokeri{} o dată"
             },
             s_6 = {
                 "Acum cumpără cealaltă",
@@ -4112,8 +4111,7 @@ return {
             },
             s_10 = {
                 "{C:attention}Cupoanele{} sunt reaprovizionate",
-                "după ce învingi",
-                "{C:attention}Blind-ul Boss{}."
+                "după ce învingi {C:attention}Blind-ul Boss{}."
             },
             s_11 = {
                 "Şi verifică şi",
