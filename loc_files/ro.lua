@@ -1260,9 +1260,9 @@ return {
                     "{C:attention}-#2#{} hand size"
                 },
                 unlock = {
-                    "In one hand,",
-                    "earn at least",
-                    "{E:1,C:attention}#1#{} chips"
+                    "Dintr-o mână,",
+                    "generează cel puțin",
+                    "{E:1,C:attention}#1#{} de jetoane"
                 }
             },
             j_invisible = {
@@ -1274,9 +1274,9 @@ return {
                     "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)"
                 },
                 unlock = {
-                    "Win a run without",
-                    "ever having more",
-                    "than {E:1,C:attention}4 Jokers{}"
+                    "Câștigă o partidă",
+                    "fără să ai vreodată",
+                    "mai mult de {E:1,C:attention}4 Jokeri{}"
                 }
             },
             j_brainstorm = {
@@ -1286,8 +1286,8 @@ return {
                     "of leftmost {C:attention}Joker"
                 },
                 unlock = {
-                    "Discard a",
-                    "{E:1,C:attention}Royal Flush"
+                    "Aruncă o",
+                    "{E:1,C:attention}Chintă Roială"
                 }
             },
             j_satellite = {
@@ -1299,91 +1299,91 @@ return {
                     "{C:inactive}(Currently {C:money}$#2#{C:inactive})"
                 },
                 unlock = {
-                    "Have {E:1,C:money}$#1#",
-                    "or more"
+                    "Ai {E:1,C:money}$#1#",
+                    "sau mai mult"
                 }
             },
             j_shoot_the_moon = {
                 name = "Shoot the Moon",
                 text = {
-                    "{C:mult}+#1#{} Multi for",
-                    "each {C:attention}Queen{}",
-                    "held in hand"
+                    "{C:mult}+#1#{} Multi pentru",
+                    "fiecare {C:attention}Damă{}",
+                    "ținută în mână"
                 },
                 unlock = {
-                    "Play every {E:1,C:attention}Heart",
-                    "in your deck in",
-                    "a single round"
+                    "Joacă fiecare {E:1,C:attention}Cupă",
+                    "din pachetul tău",
+                    "într-o singură rundă"
                 }
             },
             j_drivers_license = {
-                name = "Driver's License",
+                name = "Permis de Conducere",
                 text = {
-                    "{X:mult,C:white} X#1# {} Multi if you have",
-                    "at least {C:attention}16{} Enhanced",
-                    "cards in your full deck",
-                    "{C:inactive}(Currently {C:attention}#2#{C:inactive})"
+                    "{X:mult,C:white} X#1# {} Multi dacă ai",
+                    "cel puțin {C:attention}16{} cărți",
+                    "Îmbunătățite în pachetul tău plin",
+                    "{C:inactive}(Actualmente {C:attention}#2#{C:inactive})"
                 },
                 unlock = {
-                    "Enhance {E:1,C:attention}#1#{} cards",
-                    "in your deck"
+                    "Îmbunătățește {E:1,C:attention}#1#{} cărți",
+                    "în pachetul tău"
                 }
             },
             j_cartomancer = {
-                name = "Cartomancer",
+                name = "Clarvăzător",
                 text = {
-                    "Create a {C:tarot}Tarot{} card",
-                    "when {C:attention}Blind{} is selected",
-                    "{C:inactive}(Must have room)"
+                    "Creează o carte {C:tarot}Tarot{}",
+                    "când un {C:attention}Blind{} este selectat",
+                    "{C:inactive}(Trebuie să aibă loc)"
                 },
                 unlock = {
-                    "Discover every",
-                    "{E:1,C:tarot}Tarot{} card"
+                    "Descoperă fiecare",
+                    "carte {E:1,C:tarot}Tarot{}"
                 }
             },
             j_astronomer = {
-                name = "Astronomer",
+                name = "Astronom",
                 text = {
-                    "All {C:planet}Planet{} cards and",
-                    "{C:planet}Celestial Packs{} in",
-                    "the shop are {C:attention}free"
+                    "Toate cărțile {C:planet}Planetă{} și",
+                    "{C:planet}Pachetele Celeste{} din",
+                    "magazin sunt {C:attention}gratis"
                 },
                 unlock = {
-                    "Discover every",
-                    "{E:1,C:planet}Planet{} card"
+                    "Descoperă fiecare",
+                    "carte {E:1,C:planet}Planetă{}"
                 }
             },
             j_burnt = {
-                name = "Burnt Joker",
+                name = "Joker Ars",
                 text = {
-                    "Upgrade the level of",
-                    "the first {C:attention}discarded",
-                    "poker hand each round",
+                    "Crește nivelul primii",
+                    "mâini de poker {C:attention}aruncate",
+                    "în fiecare rundă",
                 },
                 unlock = {
-                    "Sell a total",
-                    "of {E:1,C:attention}#1#{} cards",
+                    "Vinde în total",
+                    "{E:1,C:attention}#1#{} de cărți",
                     "{C:inactive}(#2#)"
                 }
             },
             j_bootstraps = {
-                name = "Bootstraps",
+                name = "Moș Nicolae",
                 text = {
-                    "{C:mult}+#1#{} Multi for every",
-                    "{C:money}$#2#{} you have"
+                    "{C:mult}+#1#{} Multi pentru fiecare",
+                    "{C:money}$#2#{} avuți"
                 },
                 unlock = {
-                    "Have at least {E:1,C:attention}#1#",
-                    "{C:dark_edition}Polychrome{} Jokers"
+                    "Ai cel puțin {E:1,C:attention}#1#",
+                    "Jokeri {C:dark_edition}Policromi{}"
                 }
             },
             j_caino = {
                 name = "Canio",
                 text = {
-                    "Gains {X:mult,C:white} X#1# {} Multi when",
-                    "a {C:attention}face{} card",
-                    "is destroyed",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Multi)"
+                    "Primește {X:mult,C:white} X#1# {} Multi când",
+                    "o carte {C:attention}cu figuri{}",
+                    "este distrusă",
+                    "{C:inactive}(Actualmente {X:mult,C:white} X#2# {C:inactive} Multi)"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1392,9 +1392,9 @@ return {
             j_triboulet = {
                 name = "Triboulet",
                 text = {
-                    "Played {C:attention}Kings{} and",
-                    "{C:attention}Queens{} each give",
-                    "{X:mult,C:white} X#1# {} Multi when scored"
+                    "Toți {C:attention}Regii{} și",
+                    "{C:attention}Damele{} jucate generează",
+                    "{X:mult,C:white} X#1# {} Multi când sunt punctate"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1403,9 +1403,9 @@ return {
             j_yorick = {
                 name = "Yorick",
                 text = {
-                    "{X:mult,C:white} X#1# {} Multi only after",
-                    "using {C:attention}#2#{} discards",
-                    "{C:inactive}(Discards left: {C:attention}#3#{C:inactive})"
+                    "{X:mult,C:white} X#1# {} Multi numai după",
+                    "ce folosești {C:attention}#2#{} de aruncări",
+                    "{C:inactive}(Aruncări rămase: {C:attention}#3#{C:inactive})"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1414,8 +1414,8 @@ return {
             j_chicot = {
                 name = "Chicot",
                 text = {
-                    "Disables effect of",
-                    "every {C:attention}Boss Blind"
+                    "Dezactivează efectul",
+                    "fiecărui {C:attention}Blind Boss"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1424,10 +1424,10 @@ return {
             j_perkeo = {
                 name = "Perkeo",
                 text = {
-                    "Creates a {C:dark_edition}Negative{} copy of",
-                    "{C:attention}1{} random {C:attention}consumable{}",
-                    "card in your possession",
-                    "at the end of the {C:attention}shop",
+                    "Creează o copie {C:dark_edition}Negativă{} la",
+                    "{C:attention}1{} carte {C:attention}consumabilă{} la întâmplare",
+                    "din posesia ta",
+                    "la finalul {C:attention}magazinului",
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -2116,7 +2116,7 @@ return {
                 text = {
                     "Transformă toate cărțile din mână",
                     "într-un singur {C:attention}rang",
-                    "la întâmplare"
+                    "la întâmplare",
                     "{C:red}-1{} mărime mână"
                 }
             },
