@@ -120,7 +120,7 @@ return {
                 text = {
                     "Generează {C:chips}+#1#{} Jetoane",
                     "pentru fiecare {C:attention}Carte de Piatră",
-                    "din pachetul tău plin",
+                    "din pachetul tău întreg",
                     "{C:inactive}(Acum: {C:chips}+#2#{C:inactive} Jetoane)",
                 }
             },
@@ -288,7 +288,7 @@ return {
                 text = {
                     "Acest Joker primeşte {X:mult,C:white} X#1# {} Multi",
                     "pentru fiecare {C:attention}Carte de Oţel",
-                    "aflată în pachetul plin",
+                    "aflată în pachetul întreg",
                     "{C:inactive}(Acum: {X:mult,C:white} X#2# {C:inactive} Multi)",
                 }
             },
@@ -1014,7 +1014,7 @@ return {
                 name = "Al Nouălea Cer",
                 text = {
                     "Generează {C:money}$#1#{} pentru",
-                    "fiecare {C:attention}9{} din {C:attention}pachetul plin",
+                    "fiecare {C:attention}9{} din {C:attention}pachetul întreg",
                     "la finalul rundei",
                     "{C:inactive}(Acum: {C:money}$#2#{}{C:inactive})"
                 }
@@ -1083,7 +1083,7 @@ return {
                 text = {
                     "{C:red}+#1#{} Multi pentru fiecare",
                     "carte sub {C:attention}#3#{}",
-                    "în pachetul tău plin",
+                    "în pachetul tău întreg",
                     "{C:inactive}(Acum: {C:red}+#2#{C:inactive} Multi)"
                 }
             },
@@ -1316,7 +1316,7 @@ return {
                 text = {
                     "{X:mult,C:white} X#1# {} Multi dacă ai",
                     "cel puţin {C:attention}16{} cărţi",
-                    "Îmbunătăţite în pachetul tău plin",
+                    "Îmbunătăţite în pachetul tău întreg",
                     "{C:inactive}(Acum: {C:attention}#2#{C:inactive})"
                 },
                 unlock = {
