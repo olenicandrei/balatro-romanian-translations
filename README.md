@@ -45,3 +45,8 @@ A humble community-made version of the Romanian localization of Balatro.
 Romanian localization done by Andrei Olenic and Diana Calistru.
 
 A HUGE thank you to the French Localization community who made this all possible by creating [their mod](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/). Thank you to Robin Lassire, Gabriel Rodrigues, Pierre-Alexandre Rouillon, Stanislas Signoud (Signez), Bastien Luneteau, Quentin Furtys, Nicolas Cordier, François Beaumont!
+
+
+## License
+
+This project (**except all the artwork extracted or derivated from the Balatro game**) is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
