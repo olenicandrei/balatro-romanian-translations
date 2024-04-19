@@ -40,7 +40,7 @@ A humble community-made version of the Romanian localization of Balatro.
 
 
 ## Contributing
-RO: Contribuțiile sunt întotdeauna binevenite! Poți contribui alăturându-te nouă pe Discord [BalatRO - Balatro în Română](https://discord.gg/SkhrqUZ7vM) pentru a socializa, a împărtăși feedback și a dezbate traducerile.
+RO: Contribuțiile sunt întotdeauna binevenite! Poți contribui alăturându-te nouă pe Discord [BalatRO - Balatro în Română](https://discord.gg/SkhrqUZ7vM) pentru a socializa, a împărtăși feedback și a dezbate traducerile. </br>
 EN: Contributions are always welcome! You can contribute by joining us on Discord [BalatRO - Balatro în Română](https://discord.gg/SkhrqUZ7vM) to hang out, share feedback and debate translations.
 
 
