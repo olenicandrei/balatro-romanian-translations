@@ -240,7 +240,7 @@ return {
             j_8_ball = {
                 name = "Bila 8",
                 text = {
-                    "{C:green}#1# din #2#{} șanse ca fiecare",
+                    "{C:green}#1# din #2#{} şanse ca fiecare",
                     "{C:attention}8{} jucat să creeze o",
                     "carte {C:tarot}Tarot{} când este punctat",
                     "{C:inactive}(Trebuie să aibă loc)"
@@ -488,7 +488,7 @@ return {
             j_constellation = {
                 name = "Constelaţie",
                 text = {
-                    "Primește {X:mult,C:white} X#1# {} Multi de fiecare dată",
+                    "Primeşte {X:mult,C:white} X#1# {} Multi de fiecare dată",
                     "când o carte {C:planet}Planetă{} este folosită",
                     "{C:inactive}(Acum: {X:mult,C:white} X#2# {C:inactive} Multi)"
                 }
@@ -579,7 +579,7 @@ return {
                 name = "Aventurier",
                 text = {
                     "Adaugă valoarea de vânzare la Multi",
-                    "a tuturor celorlalți {C:attention}Jokeri{}",
+                    "a tuturor celorlalţi {C:attention}Jokeri{}",
                     "{C:inactive}(Acum: {C:mult}+#1#{C:inactive} Multi)"
                 },
                 unlock = {
@@ -972,7 +972,7 @@ return {
                 name = "Vampir",
                 text = {
                     "Primeşte {X:mult,C:white} X#1# {} Multi per {C:attention}carte{}",
-                    "{C:attention}Îmbunătăţită{} jucată și punctată,",
+                    "{C:attention}Îmbunătăţită{} jucată şi punctată,",
                     "elimină {C:attention}Îmbunătăţirea{} cărţii",
                     "{C:inactive}(Acum: {X:mult,C:white} X#2# {C:inactive} Multi)"
                 }
@@ -1024,14 +1024,14 @@ return {
                 name = "Rachetă",
                 text = {
                     "Generează {C:money}$#1#{} la finalul rundei",
-                    "Banii generați cresc cu {C:money}$#2#{}",
+                    "Banii generaţi cresc cu {C:money}$#2#{}",
                     "când {C:attention}Blind-ul Boss{} este învins",
                 }
             },
             j_obelisk = {
                 name = "Obelisc",
                 text = {
-                    "Primește {X:mult,C:white} X#1# {} Multi",
+                    "Primeşte {X:mult,C:white} X#1# {} Multi",
                     "per mână jucată {C:attention}consecutiv{}",
                     "fără a juca cea mai",
                     "jucată {C:attention}mână de poker",
@@ -1166,7 +1166,7 @@ return {
             j_flash = {
                 name = "Cartonaş Alfabet",
                 text = {
-                    "Primește {C:mult}+#1#{} Multi per",
+                    "Primeşte {C:mult}+#1#{} Multi per",
                     "{C:attention}reaprovizionare{} a magazinului",
                     "{C:inactive}(Acum: {C:mult}+#2#{C:inactive} Multi)"
                 }
@@ -1400,8 +1400,8 @@ return {
             j_yorick = {
                 name = "Yorick",
                 text = {
-                    "Primește {X:mult,C:white} X#1# {} Multi la fiecare",
-                    "{C:attention}#2#{C:inactive} [#3#]{} cărți aruncate",
+                    "Primeşte {X:mult,C:white} X#1# {} Multi la fiecare",
+                    "{C:attention}#2#{C:inactive} [#3#]{} cărţi aruncate",
                     "{C:inactive}(Acum: {X:mult,C:white} X#4# {C:inactive} Multi)"
                 },
                 unlock = {
@@ -1771,7 +1771,7 @@ return {
             c_magician = {
                 name = "Magicianul",
                 text = {
-                    "Îmbunătăţeşte {C:attention}#1#{} cărți",
+                    "Îmbunătăţeşte {C:attention}#1#{} cărţi",
                     "selectate în",
                     "{C:attention}#2#"
                 }
@@ -2343,7 +2343,7 @@ return {
                 name = "Jeton Portocaliu",
                 text = {
                     "Magazinul poate avea Jokeri {C:attention}Perisabili{}",
-                    "{C:inactive,s:0.8}(Devin slăbiți după 5 Runde)",
+                    "{C:inactive,s:0.8}(Devin slăbiţi după 5 Runde)",
                     "{s:0.8}Se aplică toate Dificultăţile precedente"
                 }
             },
@@ -2375,7 +2375,7 @@ return {
                 name = "Etichetă Negativă",
                 text = {
                     "Următorul Joker din magazin",
-                    "este gratuit și",
+                    "este gratuit şi",
                     "devine {C:dark_edition}Negativ"
                 }
             },
@@ -2383,7 +2383,7 @@ return {
                 name = "Etichetă Laminată",
                 text = {
                     "Următorul Joker din magazin",
-                    "este gratuit și",
+                    "este gratuit şi",
                     "devine {C:dark_edition}Laminat"
                 }
             },
@@ -2391,7 +2391,7 @@ return {
                 name = "Etichetă Holografică",
                 text = {
                     "Următorul Joker din magazin",
-                    "este gratuit și",
+                    "este gratuit şi",
                     "devine {C:dark_edition}Holografic"
                 }
             },
@@ -2399,7 +2399,7 @@ return {
                 name = "Etichetă Policromă",
                 text = {
                     "Următorul Joker din magazin",
-                    "este gratuit și",
+                    "este gratuit şi",
                     "devine {C:dark_edition}Policrom"
                 }
             },
@@ -2888,7 +2888,7 @@ return {
                 text = {
                     "Creează cartea {C:planet}Planetă{}",
                     "pentru ultima {C:attention}mâna de poker{} jucată",
-                    "în rundă dacă este {C:attention}ținut{} în mână",
+                    "în rundă dacă este {C:attention}ţinut{} în mână",
                     "{C:inactive}(Trebuie să aibă loc)"
                 }
             },
@@ -2919,7 +2919,7 @@ return {
                 name = "De Închiriat",
                 text = {
                     "Pierzi {C:money}$#1#{} la",
-                    "sfârșitul rundei"
+                    "sfârşitul rundei"
                 }
             },
             white_sticker = {
@@ -3546,7 +3546,7 @@ return {
             b_set_play_discard_pos = "Poziţia Butonului Joacă/Aruncă",
             b_set_screenshake = "Tremurarea Ecranului",
             b_high_contrast_cards = "Cărţi cu Contrast Ridicat",
-            b_reduced_motion = "Mișcare Redusă",
+            b_reduced_motion = "Mişcare Redusă",
             b_set_rumble = "Vibraţii în Controller",
             b_set_crash_reports = "Rapoarte de Crash",
             b_set_monitor = "Monitor Folosit",
